@@ -31,9 +31,7 @@ def main(forzar: bool) -> None:
     limpiar.main()
     print("=" * 60, "\n PASO 3/4 · Base de datos\n" + "=" * 60)
     base_datos.main()
-    print("=" * 60, "
- PASO 4/4 · Previsión
-" + "=" * 60)
+    print("=" * 60, "\n PASO 4/4 · Previsión\n" + "=" * 60)
     prevision.main()
     print(f"\nPipeline completado en {time.time() - inicio:.0f} segundos.")
 
