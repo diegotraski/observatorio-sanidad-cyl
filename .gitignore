@@ -1,0 +1,26 @@
+# Entorno virtual
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secretos (las claves van en .env, nunca en el repo)
+.env
+.streamlit/secrets.toml
+
+# Datos crudos pesados (se regeneran con src/descargar.py)
+data/raw/*
+!data/raw/.gitkeep
+
+# Guía personal de entrevista (no se publica)
+docs/GUIA_ENTREVISTA.md
+
+# Sistema
+.DS_Store
+Thumbs.db
