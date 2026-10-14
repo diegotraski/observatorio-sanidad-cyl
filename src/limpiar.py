@@ -466,7 +466,8 @@ def main() -> None:
                 df[col] = df[col].round().astype("Int64")
             elif col.startswith("demora_"):
                 df[col] = df[col].round(1)
-        df.to_csv(DIR_PROCESADO / f"{nombre}.csv", index=False, encoding="utf-8")
+        # lineterminator="\n" para que el CSV sea idéntico en Windows y en Linux
+        df.to_csv(DIR_PROCESADO / f"{nombre}.csv", index=False, encoding="utf-8", lineterminator="\n")
         print(f"   {nombre}.csv: {len(df)} filas")
 
 

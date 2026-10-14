@@ -80,3 +80,27 @@ Diario de decisiones, fase a fase. Cada entrada resume qué se hizo y por qué.
   - Hay demoras extremas reales (Rehabilitación en El Bierzo, 814 días en marzo de 2022; Neumología en Soria, ~700 días en 2021). Se mantienen y se comentan en el análisis.
 - Las columnas pasan a `snake_case` sin tildes, los recuentos a enteros y las demoras se redondean a 1 decimal.
 - Salida: 8 CSV en `data/processed/`. El diccionario completo está en `docs/DICCIONARIO_DATOS.md`.
+
+## Fase 3 · Base de datos SQL
+
+- `src/base_datos.py` crea `data/sanidad_cyl.db` (0,9 MB) desde cero con un esquema SQL escrito a mano y visible en el código.
+- **Esquema en estrella:**
+  - Tablas maestras: `provincias`, `hospitales` (con área de salud y FK a provincia) y `especialidades`.
+  - Tablas de hechos: `lista_espera_quirurgica_hospital`, `..._especialidad`, `..._region`, `consultas_externas` y `poblacion`.
+  - En los hechos se guardan ids, no nombres, para no repetir texto y evitar incoherencias.
+- **Integridad:**
+  - Claves primarias compuestas, como `(fecha, hospital_id)`, para que no pueda haber dos filas del mismo hospital en el mismo corte.
+  - FK con `PRAGMA foreign_keys = ON`, que SQLite no aplica si no se activa, y comprobación final con `PRAGMA foreign_key_check`.
+  - `CHECK` que impiden pacientes o demoras negativos.
+- **Índices** en `hospital_id`, `especialidad_id` y `provincia_id`. La fecha ya está indexada porque es la primera columna de la clave primaria.
+- **Vistas:**
+  - `v_quirurgica_provincia`: agrega los hospitales por provincia. La demora es una **media ponderada** por los pacientes estructurales, porque una media simple daría el mismo peso a Medina del Campo que al Clínico. Se une a la población más reciente del INE en la fecha de corte para calcular la **tasa por 10.000 habitantes**.
+  - `v_quirurgica_hospital`, `v_quirurgica_especialidad` y `v_consultas_detalle`: los hechos con los nombres ya unidos. Hacen más fáciles las consultas del dashboard y del asistente de IA.
+- **Por qué SQLite:** es un único fichero, no necesita servidor, viene con Python y se puede subir al repo para que Streamlit Cloud lo use tal cual. Para menos de un millón de filas es más que suficiente.
+- `ejecutar_todo.py` lanza descarga → limpieza → base de datos con un solo comando.
+- **Tests (`tests/test_base_datos.py`, 33 tests):**
+  - Que la base de datos existe y que las tablas tienen filas.
+  - Que no hay demoras ni pacientes negativos, ni fechas futuras o con formato inválido.
+  - Que las FK son coherentes.
+  - Que la suma de los hospitales es igual al total regional y que el total es la suma de sus tres componentes.
+  - Que la vista provincial tiene las 9 provincias y población en todos los cortes.
