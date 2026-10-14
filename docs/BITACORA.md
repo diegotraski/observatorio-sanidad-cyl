@@ -144,3 +144,59 @@ Diario de decisiones, fase a fase. Cada entrada resume qué se hizo y por qué.
   - La media móvil va por detrás de los cambios bruscos, como el salto de 2026.
   - Los modelos no conocen las causas: planes de choque, plantillas, huelgas.
 - Los resultados van a la base de datos (tablas `prevision` y `prevision_evaluacion`), para que el dashboard y el asistente puedan consultarlos. `ejecutar_todo.py` ya incluye este paso, y hay 5 tests nuevos (38 en total).
+
+## Fase 6 · Dashboard en Streamlit
+
+- `app/dashboard.py` tiene seis pestañas:
+  - **Resumen:** 4 indicadores y la evolución de pacientes y de demora, en gráficos separados.
+  - **Comparativa:** mapa, provincias ordenadas y hospitales ordenados.
+  - **Especialidades:** ranking y evolución.
+  - **Previsión:** gráfico con el intervalo, la tabla de errores y una nota de limitaciones.
+  - **Pregúntale a los datos.**
+  - **Acerca de:** fuentes, fecha de actualización, metodología y autor.
+- **Filtros** de la barra lateral: provincia, hospital (las opciones dependen de la provincia elegida), especialidad y periodo con un deslizador de cortes trimestrales.
+  - Como Sacyl no publica la lista quirúrgica por hospital y especialidad, la pestaña Especialidades permite cambiar a las **primeras consultas externas**, que sí tienen ese cruce y respetan todos los filtros. Un aviso lo explica.
+- Si no hay filtros, la demora es la regional oficial. Con filtros, es una media ponderada por pacientes.
+- **Mapa:** se descarga el GeoJSON oficial de zonas básicas de salud (Datos Abiertos JCyL, CC BY 4.0) y en `limpiar.py` las 247 zonas se unen en 9 provincias con `shapely`. Se pasa de 5,7 MB a 137 KB, y el dashboard no necesita librerías geográficas.
+- Tema sobrio en `.streamlit/config.toml`, con el verde azulado sanitario. Se usa la misma paleta validada que en el notebook.
+- `st.cache_data` en todas las consultas. La base de datos se abre siempre en solo lectura.
+- **Móvil:** la barra lateral está plegada por defecto y las columnas se apilan. Comprobado a 375 px de ancho.
+- Probado en el navegador:
+  - Arranca sin errores.
+  - Los filtros funcionan: con Burgos sale 6.483 pacientes y 136 días, igual que en el análisis.
+  - El mapa, la previsión y la vista en móvil se ven bien.
+  - Sin clave de API, el asistente muestra un aviso y el resto sigue funcionando.
+- Dependencias:
+  - `requirements.txt`: dashboard y pipeline, lo que instala Streamlit Cloud.
+  - `requirements-dev.txt`: notebook, kaleido y pytest.
+  - Todas con la versión fijada.
+
+## Fase 7 · Asistente de IA (texto a SQL)
+
+- **Proveedor:** Claude (Anthropic), modelo `claude-opus-5-5`, configurable con `ASISTENTE_MODELO`.
+- **Flujo (`src/asistente.py`):**
+  1. Se describe el esquema: tablas y vistas, columnas, tipos y 3 filas de ejemplo.
+  2. El modelo devuelve SOLO una consulta SQL.
+  3. La consulta se valida y se ejecuta.
+  4. El modelo redacta una respuesta de 2-4 frases basada solo en los resultados.
+  - Las instrucciones explican el contexto: qué significa "espera estructural", que las fechas son cortes trimestrales y que no hay cruce hospital × especialidad en la lista quirúrgica.
+- **Seguridad en tres capas:**
+  1. `validar_sql()`:
+     - Quita los comentarios.
+     - Exige una sola sentencia, que empiece por `SELECT` o `WITH`.
+     - Rechaza INSERT, UPDATE, DELETE, DROP, ALTER, CREATE, ATTACH, PRAGMA, `load_extension`, etc. Ignora los textos entre comillas para no dar falsos positivos.
+  2. Conexión de **solo lectura** (`file:...?mode=ro`).
+  3. **Autorizador de SQLite** (`set_authorizer`), que solo permite operaciones de lectura. Aunque algo escapara al validador, SQLite lo bloquearía.
+  - Además, la consulta se envuelve en `SELECT * FROM (...) LIMIT 500`.
+- **Reintento:** si la consulta falla, se le pasa el error al modelo una vez. Si vuelve a fallar, se muestra un mensaje amable.
+- **Interfaz:**
+  - Respuesta redactada, gráfico automático (línea si hay fechas, barras si hay categorías), tabla y la consulta SQL en un desplegable.
+  - 5 preguntas de ejemplo como botones.
+- **Clave de API:** `.env` con `python-dotenv` en local y `st.secrets` en la nube. Sin clave, la pestaña avisa y el resto del dashboard funciona.
+- Otras decisiones:
+  - El bloque de sistema con el esquema usa **caché de prompts**, porque se repite en cada pregunta.
+  - Activado `fallbacks="default"` (función beta de Anthropic): si el modelo rechazara una petición por sus filtros de seguridad, la API la reintenta con un modelo alternativo.
+- **Tests (`tests/test_asistente.py`):**
+  - El validador rechaza 15 consultas peligrosas y acepta 6 válidas, entre ellas un `'DROP TABLE'` dentro de un texto.
+  - La conexión es de solo lectura, el límite de filas se aplica y el esquema incluye tablas y vistas.
+  - En total hay 64 tests y todos pasan.

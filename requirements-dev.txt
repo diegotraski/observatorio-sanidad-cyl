@@ -1,0 +1,8 @@
+# Herramientas de desarrollo: notebook, imágenes estáticas de los gráficos y tests
+-r requirements.txt
+jupyter==1.1.1
+ipykernel==7.4.0
+nbformat==5.11.1
+nbconvert==7.17.2
+kaleido==1.5.0
+pytest==9.1.1

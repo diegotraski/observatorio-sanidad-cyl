@@ -16,6 +16,7 @@ Uso:
 from __future__ import annotations
 
 import sqlite3
+from datetime import date
 from pathlib import Path
 
 import pandas as pd
@@ -258,6 +259,13 @@ def main() -> None:
         ids = construir_maestras(con)
         cargar_hechos(con, *ids)
         con.executescript(VISTAS)
+        # Metadatos: cuándo se generó la base de datos y cuál es el último corte
+        ultimo_corte = con.execute("SELECT MAX(fecha) FROM lista_espera_quirurgica_region").fetchone()[0]
+        con.execute("CREATE TABLE metadatos (clave TEXT PRIMARY KEY, valor TEXT NOT NULL)")
+        con.executemany("INSERT INTO metadatos VALUES (?, ?)", [
+            ("fecha_generacion", date.today().isoformat()),
+            ("ultimo_corte", ultimo_corte),
+        ])
         con.commit()
 
         # Comprobación final: ninguna clave foránea rota

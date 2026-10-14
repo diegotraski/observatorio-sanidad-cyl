@@ -453,7 +453,11 @@ def crear_mapa_provincias(tolerancia: float = 0.004) -> None:
     features = []
     for provincia, geometrias in sorted(por_provincia.items()):
         contorno = unary_union(geometrias).simplify(tolerancia, preserve_topology=True)
-        features.append({"type": "Feature", "properties": {"provincia": provincia},
+        # Punto interior de la provincia, para colocar su nombre en el mapa
+        punto = contorno.representative_point()
+        features.append({"type": "Feature",
+                         "properties": {"provincia": provincia,
+                                        "lon": round(punto.x, 4), "lat": round(punto.y, 4)},
                          "geometry": mapping(contorno)})
     destino = DIR_PROCESADO / "provincias_cyl.geojson"
     destino.write_text(json.dumps({"type": "FeatureCollection", "features": features}),

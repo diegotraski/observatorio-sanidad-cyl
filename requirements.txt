@@ -1,0 +1,15 @@
+# Dashboard y pipeline de datos (es lo que instala Streamlit Community Cloud)
+streamlit==1.65.0
+pandas==3.0.6
+numpy==2.5.4
+plotly==7.1.0
+anthropic==1.13.0
+python-dotenv==1.2.4
+
+# Pipeline: descarga, limpieza y previsión (python ejecutar_todo.py)
+requests==2.34.2
+truststore==0.10.5
+openpyxl==3.1.5
+shapely==2.2.0
+statsmodels==0.15.0
+scipy==1.18.1
