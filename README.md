@@ -1,10 +1,32 @@
-# Observatorio de la Sanidad en Castilla y León
+<div align="center">
+
+# 🏥 Observatorio de la Sanidad en Castilla y León
 
 **Dashboard interactivo con datos oficiales de las listas de espera de los 14 hospitales públicos de Castilla y León (2018-2026): análisis, previsión a 12 meses y un asistente de IA que responde preguntas convirtiéndolas en SQL.**
 
-### 👉 [Ver la demo en vivo](#) <!-- ENLACE_DEMO -->
+<!-- ENLACE_DEMO: sustituir por el botón de la demo cuando esté desplegada en Streamlit Cloud -->
 
-![Resumen del dashboard](docs/capturas/01_resumen.png)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Gemini](https://img.shields.io/badge/IA-Gemini_texto_a_SQL-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Tests](https://img.shields.io/badge/pytest-65_tests-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![License](https://img.shields.io/badge/Licencia-MIT-green?style=for-the-badge)
+
+<img src="docs/capturas/01_resumen.png" alt="Resumen del dashboard: indicadores clave y evolución de la lista de espera" width="90%">
+
+</div>
+
+<details>
+<summary>🇬🇧 <b>English summary</b></summary>
+
+<br>
+
+**Healthcare data analysis project on surgical and outpatient waiting lists in Castilla y León (Spain).** A reproducible Python pipeline downloads 56 quarterly Excel files from the regional health service (Sacyl) plus population data from the national statistics office (INE), cleans and normalizes them with explicit quality checks (hospital totals match the official regional total in all 29 quarters), and loads them into a relational SQLite database with views such as waiting patients per 10,000 inhabitants. A narrated Jupyter notebook answers five business questions, an ETS (Holt-Winters) forecast is honestly benchmarked against naive baselines, and a Streamlit dashboard offers filters, a choropleth map and a text-to-SQL assistant (Gemini) that only runs validated, read-only `SELECT` queries. Key finding: the surgical waiting list grew 33% in the first half of 2026, and Burgos has the highest waiting rate per inhabitant (+29% vs. the regional average).
+
+</details>
 
 ---
 
@@ -146,3 +168,7 @@ Más detalle en la [bitácora](docs/BITACORA.md) y el [diccionario de datos](doc
 **Diego Trascasa García**: Ingeniero de la Salud (Universidad de Burgos) · IBM Data Analyst Professional Certificate
 
 [LinkedIn](https://www.linkedin.com/in/diego-trascasa-garc%C3%ADa-b171382b2/) · [GitHub](https://github.com/diegotraski)
+
+## Licencia
+
+Código bajo licencia [MIT](LICENSE). Los datos pertenecen a sus fuentes (Sacyl, INE y Junta de Castilla y León) y se reutilizan según sus condiciones, citadas arriba.
