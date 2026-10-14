@@ -200,3 +200,39 @@ Diario de decisiones, fase a fase. Cada entrada resume qué se hizo y por qué.
   - El validador rechaza 15 consultas peligrosas y acepta 6 válidas, entre ellas un `'DROP TABLE'` dentro de un texto.
   - La conexión es de solo lectura, el límite de filas se aplica y el esquema incluye tablas y vistas.
   - En total hay 64 tests y todos pasan.
+
+## Fase 8 · Publicación
+
+- **README** en español, pensado para un lector con prisa:
+  - Una frase que explica el proyecto y el enlace a la demo.
+  - Una tabla de "qué responde" con cifras reales.
+  - 7 capturas del dashboard: 6 pestañas y la vista móvil.
+  - Un diagrama Mermaid del flujo de datos, cómo ejecutarlo, fuentes con su licencia, limitaciones y autor.
+- Las capturas se generaron con Playwright usando el Edge del sistema, sin descargar ningún navegador.
+- **Prueba de reproducibilidad en una carpeta limpia:** se extrajo el repo sin ningún dato, se creó un entorno virtual nuevo con `requirements-dev.txt` y se ejecutó `python ejecutar_todo.py`.
+  - Descarga de las 59 fuentes originales y pipeline completo en 212 s.
+  - **64/64 tests** pasan.
+  - Los **11 ficheros generados son idénticos byte a byte** a los del repo.
+- **Antes de publicar:** búsqueda de claves en todo el repo (ninguna), `.env` y guía de entrevista fuera del control de versiones.
+- **Repositorio público** creado y subido: https://github.com/diegotraski/observatorio-sanidad-cyl
+  - Descripción en español.
+  - Topics: data-analysis, python, sql, streamlit, healthcare, castilla-y-leon, llm, text-to-sql y plotly.
+- **Preparado para Streamlit Community Cloud:**
+  - Rutas relativas con `pathlib`.
+  - La base de datos (0,9 MB) va incluida en el repo.
+  - `requirements.txt` en la raíz.
+  - La clave se lee de `st.secrets`.
+- **Pendiente:**
+  - Desplegar desde share.streamlit.io con la cuenta de GitHub del autor y añadir el enlace al README.
+  - Probar el asistente con una clave real y rehacer la captura de su pestaña.
+
+## Fase 9 · Preparación para la entrevista
+
+- `docs/GUIA_ENTREVISTA.md` (en el `.gitignore`, no se publica) incluye:
+  - El proyecto contado en 30 segundos y en 2 minutos.
+  - Las decisiones técnicas y su porqué.
+  - Los hallazgos con cifras para citar de memoria.
+  - Limitaciones y mejoras.
+  - Una frase para el CV y una publicación para LinkedIn.
+  - 12 preguntas de entrevista con sus respuestas.
+  - Un mini examen de 10 preguntas sobre el código, con soluciones.
