@@ -83,3 +83,11 @@ def test_esquema_incluye_tablas_y_vistas():
     assert "TABLA hospitales" in esquema
     assert "VISTA v_quirurgica_provincia" in esquema
     assert "Ejemplo:" in esquema
+
+
+def test_esquema_incluye_nombres_exactos():
+    """El modelo recibe los nombres exactos para filtrar con '=' (evita que 'León' encaje con 'Palencia')."""
+    esquema = describir_esquema()
+    assert "VALORES EXACTOS DE PROVINCIAS" in esquema
+    assert "León" in esquema and "Palencia" in esquema
+    assert "VALORES EXACTOS DE HOSPITALES" in esquema

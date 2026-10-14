@@ -462,10 +462,17 @@ def grafico_automatico(datos: pd.DataFrame) -> go.Figure | None:
     if datos.empty or len(datos) < 2:
         return None
     numericas = datos.select_dtypes("number").columns.tolist()
-    textos = [c for c in datos.columns if c not in numericas]
+    # Etiqueta: la primera columna de texto que distingue cada fila (descarta, por
+    # ejemplo, una fecha que es igual en todas las filas)
+    textos = [c for c in datos.columns if c not in numericas and datos[c].nunique() == len(datos)]
     if not numericas or not textos:
         return None
-    x, y = textos[0], numericas[-1]
+    x = textos[0]
+    # Valor: la columna numérica por la que viene ordenada la tabla (la del ORDER BY);
+    # si no hay ninguna ordenada, la última numérica
+    ordenadas = [c for c in numericas
+                 if datos[c].is_monotonic_decreasing or datos[c].is_monotonic_increasing]
+    y = ordenadas[0] if ordenadas else numericas[-1]
     fechas_posibles = pd.to_datetime(datos[x], errors="coerce", format="%Y-%m-%d")
     if fechas_posibles.notna().all() and datos[x].nunique() == len(datos):
         fig = go.Figure(go.Scatter(x=fechas_posibles, y=datos[y], mode="lines+markers",

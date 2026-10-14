@@ -246,3 +246,22 @@ Diario de decisiones, fase a fase. Cada entrada resume qué se hizo y por qué.
   - En el plan gratuito Google puede usar las peticiones para mejorar sus productos. Aquí no importa: los datos son públicos y no se piden datos personales.
   - Hay límites de peticiones por minuto y por día. Si se superan, el asistente muestra un mensaje amable y el resto del dashboard sigue funcionando.
 - La variable de entorno pasa a llamarse `GEMINI_API_KEY`, tanto en `.env` como en los *Secrets* de Streamlit.
+
+### Prueba real del asistente con Gemini y ajustes
+
+- **Disponibilidad del modelo:** `gemini-3.8-flash` daba `504 DEADLINE_EXCEEDED` de forma repetida en el plan gratuito. Además, los reintentos automáticos del SDK dejaban la petición colgada varios minutos y agotaban la cuota por minuto (`429`).
+  - Ahora el modelo principal es **`gemini-3.6-flash`** (1-2 s por respuesta) y, si falla, se pasa automáticamente a **`gemini-3.5-flash-lite`**.
+  - Hay un **límite de 45 s** por llamada y **no hay reintentos internos**, para que el dashboard nunca se quede colgado.
+  - Se usa `client.models.generate_content`, el método que respondió de forma fiable.
+- **Fallo real detectado en las pruebas:**
+  - Ante "¿Cómo ha evolucionado la demora en León?", el modelo filtró con `LIKE '%Le%n%'`, que también coincide con "Pa**len**cia", y devolvía dos valores por trimestre.
+  - Solución: el esquema que recibe el modelo incluye ahora la **lista exacta** de provincias, hospitales y especialidades, y las instrucciones piden filtrar con `=`. Hay un test nuevo y ahora son 65.
+- **Respuestas más útiles:**
+  - Se pide incluir siempre las cifras que justifican la respuesta y devolver un ranking, no solo el ganador.
+  - El gráfico automático elige como etiqueta la columna de texto que distingue cada fila y como valor la columna numérica por la que viene ordenada la tabla.
+- **Resultado:** las 5 preguntas de ejemplo dan la SQL y las cifras correctas, comprobadas a mano contra la base de datos.
+  - CAU Burgos, 144 días en Traumatología (consultas externas).
+  - Burgos, 176,2 pacientes por 10.000 habitantes.
+  - León, de 139 a 134 días, con un mínimo de 100.
+  - El top 5 de especialidades por demora.
+  - 3.143 pacientes de Dermatología en Valladolid.

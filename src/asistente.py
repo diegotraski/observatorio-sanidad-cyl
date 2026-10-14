@@ -18,8 +18,9 @@ Flujo:
 
 La clave de API se lee de la variable de entorno GEMINI_API_KEY (fichero
 .env en local, st.secrets en Streamlit Cloud). Nunca se escribe en el código.
-El modelo se elige con ASISTENTE_MODELO (por defecto, un modelo Flash del plan
-gratuito de la API de Gemini).
+El modelo principal se elige con ASISTENTE_MODELO (por defecto, un modelo
+Flash del plan gratuito). Si falla, va lento o se queda sin cuota, se prueba
+automáticamente un modelo alternativo más ligero.
 """
 
 from __future__ import annotations
@@ -35,7 +36,9 @@ import pandas as pd
 RAIZ = Path(__file__).resolve().parent.parent
 RUTA_BD = RAIZ / "data" / "sanidad_cyl.db"
 
-MODELO = os.getenv("ASISTENTE_MODELO", "gemini-3.8-flash")
+# Modelos del plan gratuito de Gemini, en orden de preferencia
+MODELOS = [os.getenv("ASISTENTE_MODELO", "gemini-3.6-flash"), "gemini-3.5-flash-lite"]
+TIEMPO_MAXIMO_MS = 45_000  # límite por llamada, para que el dashboard nunca se quede colgado
 LIMITE_FILAS = 500
 
 # Palabras que nunca pueden aparecer en la consulta (fuera de textos entre comillas)
@@ -145,6 +148,13 @@ def describir_esquema(ruta_bd: Path = RUTA_BD, filas_ejemplo: int = 3) -> str:
             cols = ", ".join(f"{c[0]} {tipo_de.get(c[0]) or ''}".strip() for c in columnas)
             partes.append(f"{'TABLA' if tipo == 'table' else 'VISTA'} {nombre}({cols})\n"
                           f"Ejemplo:\n{ejemplo.to_string(index=False)}")
+
+        # Valores exactos de los nombres, para que el modelo filtre con "=" y no con
+        # LIKE aproximados (por ejemplo, LIKE '%Le%n%' encontraría también "Palencia")
+        for tabla, titulo in [("provincias", "PROVINCIAS"), ("hospitales", "HOSPITALES"),
+                              ("especialidades", "ESPECIALIDADES")]:
+            valores = [v for (v,) in con.execute(f"SELECT nombre FROM {tabla} ORDER BY nombre")]
+            partes.append(f"VALORES EXACTOS DE {titulo}: " + "; ".join(valores))
         return "\n\n".join(partes)
     finally:
         con.close()
@@ -164,9 +174,13 @@ Contexto importante:
   y una especialidad concretos usa consultas_externas / v_consultas_detalle (primeras
   consultas con el especialista) y dilo en la respuesta.
 - Prefiere las vistas (v_...), que ya traen los nombres unidos.
-- Para buscar nombres usa LIKE con comodines y sin depender de tildes cuando haya duda,
-  por ejemplo especialidad LIKE '%Traumatolog%'.
+- Para filtrar por provincia, hospital o especialidad usa "=" con el nombre EXACTO de las
+  listas de VALORES EXACTOS del final (por ejemplo provincia = 'León'). No uses LIKE con
+  comodines para provincias, porque puede coincidir con otras (LIKE '%Le%n%' incluye Palencia).
 - Si la pregunta no indica fecha, usa el último corte disponible.
+- Incluye siempre en el SELECT las cifras que justifican la respuesta (por ejemplo, la tasa,
+  los pacientes y la demora), no solo el nombre. Si piden "cuál es el que más", devuelve un
+  ranking ordenado de varios elementos para poder compararlos.
 - Las provincias son: Ávila, Burgos, León, Palencia, Salamanca, Segovia, Soria, Valladolid, Zamora.
 
 Responde SOLO con una consulta SQL (un único SELECT, puede empezar por WITH), sin
@@ -183,21 +197,35 @@ ESQUEMA DE LA BASE DE DATOS:
 def _llamar(cliente, instrucciones: str, mensaje: str, razonamiento: str) -> str:
     """Hace una llamada al modelo y devuelve el texto de la respuesta.
 
-    Usa la API "Interactions" del SDK google-genai: `system_instruction` lleva
-    las instrucciones fijas (y el esquema) e `input` la pregunta concreta.
-    `thinking_level` regula cuánto "piensa" el modelo antes de responder:
-    más para escribir SQL, menos para redactar la respuesta.
+    - `system_instruction` lleva las instrucciones fijas (y el esquema) y
+      `contents`, la pregunta concreta.
+    - `thinking_level` regula cuánto "piensa" el modelo antes de responder:
+      más para escribir SQL, menos para redactar la respuesta.
+    - Si el modelo principal da un error del servidor, tarda demasiado o se
+      queda sin cuota gratuita, se prueba el siguiente de la lista MODELOS.
     """
-    respuesta = cliente.interactions.create(
-        model=MODELO,
+    from google.genai import errors, types
+
+    configuracion = types.GenerateContentConfig(
         system_instruction=instrucciones,
-        input=mensaje,
-        generation_config={"thinking_level": razonamiento},
+        thinking_config=types.ThinkingConfig(thinking_level=razonamiento),
     )
-    texto = (respuesta.output_text or "").strip()
-    if not texto:
-        raise RuntimeError("El modelo no ha devuelto ninguna respuesta.")
-    return texto
+    ultimo_error: Exception | None = None
+    for modelo in MODELOS:
+        try:
+            respuesta = cliente.models.generate_content(
+                model=modelo, contents=mensaje, config=configuracion)
+            texto = (respuesta.text or "").strip()
+            if texto:
+                return texto
+            ultimo_error = RuntimeError(f"{modelo} no ha devuelto texto.")
+        except errors.ClientError as error:
+            if error.code != 429:  # 429 = cuota agotada: se prueba otro modelo
+                raise                # otros errores (p. ej. clave inválida) no se arreglan cambiando de modelo
+            ultimo_error = error
+        except Exception as error:  # error del servidor (5xx) o tiempo agotado
+            ultimo_error = error
+    raise RuntimeError(f"Ningún modelo ha podido responder: {ultimo_error}")
 
 
 def generar_sql(cliente, esquema: str, pregunta: str,
@@ -246,7 +274,12 @@ def crear_cliente(clave: str | None = None):
     if not clave:
         return None
     from google import genai  # importación aquí: el resto del proyecto funciona sin el paquete
-    return genai.Client(api_key=clave)
+    from google.genai import types
+
+    # Sin reintentos automáticos largos: si un modelo falla, _llamar prueba el siguiente
+    opciones = types.HttpOptions(timeout=TIEMPO_MAXIMO_MS,
+                                 retry_options=types.HttpRetryOptions(attempts=1))
+    return genai.Client(api_key=clave, http_options=opciones)
 
 
 def responder(pregunta: str, cliente, esquema: str | None = None,
