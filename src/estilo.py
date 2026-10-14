@@ -29,12 +29,14 @@ plantilla = go.layout.Template(
         plot_bgcolor=FONDO,
         colorway=[PRINCIPAL, DESTACADO, TERCERO],
         xaxis=dict(showgrid=False, linecolor=REJILLA, ticks="outside", tickcolor=REJILLA,
-                   title_font=dict(color=TEXTO_SECUNDARIO)),
-        yaxis=dict(gridcolor=REJILLA, zeroline=False, title_font=dict(color=TEXTO_SECUNDARIO)),
-        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0,
+                   title_font=dict(color=TEXTO_SECUNDARIO), automargin=True),
+        yaxis=dict(gridcolor=REJILLA, zeroline=False, title_font=dict(color=TEXTO_SECUNDARIO),
+                   automargin=True),
+        # Leyenda debajo del gráfico para que no choque con el título y el subtítulo
+        legend=dict(orientation="h", yanchor="top", y=-0.12, xanchor="left", x=0,
                     title_text=""),
         hoverlabel=dict(bgcolor="white", font_size=13),
-        margin=dict(l=10, r=10, t=70, b=10),
+        margin=dict(l=70, r=30, t=90, b=60),
         hovermode="x unified",
     ),
     data=dict(

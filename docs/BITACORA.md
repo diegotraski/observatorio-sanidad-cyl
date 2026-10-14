@@ -104,3 +104,43 @@ Diario de decisiones, fase a fase. Cada entrada resume qué se hizo y por qué.
   - Que las FK son coherentes.
   - Que la suma de los hospitales es igual al total regional y que el total es la suma de sus tres componentes.
   - Que la vista provincial tiene las 9 provincias y población en todos los cortes.
+
+## Fase 4 · Análisis exploratorio
+
+- `notebooks/analisis_exploratorio.ipynb` está escrito como un informe: siete secciones con su pregunta, la consulta SQL (`pd.read_sql`), el tratamiento en pandas, un gráfico de Plotly y una conclusión con cifras.
+- Los gráficos se guardan como interactivos y también como PNG (renderer `plotly_mimetype+png`), porque GitHub no ejecuta JavaScript y sin la imagen el notebook se vería vacío allí.
+- **Paleta propia validada** (`src/estilo.py`), la misma para el notebook y el dashboard:
+  - Verde azulado sanitario para la serie principal, naranja para destacar (Burgos o "empeora") y añil como tercer color.
+  - Los tres se comprobaron con un validador de accesibilidad para que se distingan también con daltonismo.
+  - Nunca se usan dos ejes Y en un mismo gráfico: pacientes y demora van en gráficos separados.
+- Decisiones de análisis:
+  - **Tasa por 10.000 habitantes** para comparar provincias de tamaños muy distintos.
+  - La tasa regional se calcula como total de pacientes entre total de población, no como media de las tasas provinciales.
+  - **Estacionalidad:** al tener datos trimestrales, se compara el cambio entre cortes consecutivos según el trimestre. Se excluyen 2019-2020 por la pandemia.
+  - Se avisa de que la demora no mide la calidad de un hospital.
+- **Hallazgos con cifras reales:**
+  - La lista quirúrgica creció un 33 % en el primer semestre de 2026, hasta 33.034 pacientes estructurales.
+  - Burgos tiene la mayor tasa: 176 por 10.000 habitantes, +29 % sobre la media, y está por encima de la media en los 29 cortes.
+  - El Bierzo tiene la mayor demora: 201 días, +84 en un año.
+  - Traumatología concentra el 32 % de la lista.
+  - La demora sube en el corte de septiembre en 5 de 5 años (+9,5 días de media).
+- Detectado un probable cambio de registro en consultas externas en septiembre de 2022 (+33 % en un trimestre). Se documenta como limitación en lugar de presentarlo como un hallazgo.
+
+## Fase 5 · Previsión
+
+- `src/prevision.py` trabaja con la serie trimestral de pacientes estructurales, de septiembre de 2019 a junio de 2026: 28 puntos sin huecos. Hay 10 series: la comunidad y las 9 provincias.
+- **Validación:** se reservan los 4 últimos trimestres (septiembre de 2025 a junio de 2026) como prueba. Se mide el MAE (pacientes) y el MAPE (%) y se elige el modelo de menor MAE.
+- **Modelos:**
+  - Tres referencias: último valor, estacional ingenuo y media móvil de 4 trimestres.
+  - Un ETS (Holt-Winters) con tendencia amortiguada y estacionalidad trimestral, con `statsmodels.ETSModel`. Se eligió este y no ARIMA porque su intervalo de predicción es nativo y porque es fácil de explicar: nivel, tendencia que se frena y efecto de cada trimestre.
+- **Resultado honesto:** el ETS **solo gana en Burgos** (MAPE 4,7 %). En Castilla y León gana la media móvil (MAPE 10,2 %, frente al 20,6 % del ETS) y en el resto de provincias ganan también modelos simples. No se fuerza el modelo complejo.
+- **Intervalos del 80 %:**
+  - ETS: los da el propio modelo.
+  - Modelos simples: a partir de la desviación típica de sus errores históricos, creciendo con la raíz del horizonte.
+  - Se mide también la cobertura del intervalo en la prueba.
+- **Limitaciones:**
+  - Solo 4 puntos de prueba, así que la elección del modelo es frágil (sería mejor validar con origen móvil).
+  - Series cortas y alteradas por la pandemia.
+  - La media móvil va por detrás de los cambios bruscos, como el salto de 2026.
+  - Los modelos no conocen las causas: planes de choque, plantillas, huelgas.
+- Los resultados van a la base de datos (tablas `prevision` y `prevision_evaluacion`), para que el dashboard y el asistente puedan consultarlos. `ejecutar_todo.py` ya incluye este paso, y hay 5 tests nuevos (38 en total).
