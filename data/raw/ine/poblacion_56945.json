@@ -1,0 +1,1220 @@
+[{"COD":"ECP320", "Nombre":"Total Nacional. Todas las edades. Total. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Notas":[{"texto" : "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177095&menu=ultiDatos&idp=1254735572981#~# https://www.ine.es/consul/serie.do?s=ECP320&nult=100&TB_iframe=true&position=center&width=700&height=500&L=0&nocab=1", "Fk_TipoNota" : 6, "textoTipo" : null}], "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":4.9128297E7, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":4.899988E7, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":4.8821936E7, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":4.870113E7, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":4.8619695E7, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":4.8486865E7, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":4.832052E7, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":4.8205962E7, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":4.8085361E7, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":4.7940295E7, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":4.7781354E7, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":4.7609145E7, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":4.7486727E7, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":4.7424595E7, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":4.7346836E7, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":4.7356065E7, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":4.7400798E7, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":4.7344852E7, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":4.731805E7, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":4.7087778E7, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":4.6918951E7, "Secreto":false}
+]
+}
+,{"COD":"ECP131414", "Nombre":"Total. Todas las edades. Albacete. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":390751.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":390473.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":389900.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":389188.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":389070.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":389075.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":388350.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":387954.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":387529.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":386929.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":386330.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":386047.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":385967.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":386239.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":386073.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":386546.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":386726.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":386847.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":387838.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":387730.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":387818.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131413", "Nombre":"Total. Todas las edades. Alicante/Alacant. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":2033566.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":2022887.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":2009687.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":2002291.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":1993289.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":1982707.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":1971285.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":1963460.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":1955268.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":1943936.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":1931217.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":1917105.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":1907494.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":1899737.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":1891867.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":1888399.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":1887036.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":1881459.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":1877627.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":1865814.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":1855384.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131412", "Nombre":"Total. Todas las edades. Almería. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":770554.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":767740.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":763990.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":761513.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":760964.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":758768.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":755947.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":754415.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":753364.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":750182.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":746675.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":743001.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":739541.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":734811.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":732366.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":731155.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":730430.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":726052.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":724003.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":718671.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":714123.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131411", "Nombre":"Total. Todas las edades. Araba/Álava. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":341961.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":341280.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":340255.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":339201.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":338594.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":337642.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":337095.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":336618.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":336308.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":335666.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":335191.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":334523.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":333908.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":333165.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":332885.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":333137.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":333485.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":333425.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":332874.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":331275.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":330104.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131410", "Nombre":"Total. Todas las edades. Asturias. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":1015128.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":1013182.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":1010547.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":1009475.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":1009599.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":1008299.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":1006368.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":1006134.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":1006060.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":1005533.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":1004553.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":1004326.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":1004960.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":1006430.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":1007329.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":1009420.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":1012117.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":1014604.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":1018053.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":1019217.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":1021469.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131409", "Nombre":"Total. Todas las edades. Ávila. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":160738.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":160393.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":160043.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":160264.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":160463.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":160271.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":160005.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":159809.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":159764.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":159704.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":159328.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":158963.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":159102.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":158920.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":159126.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":159413.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":158898.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":158065.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":158819.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":158793.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":159237.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131408", "Nombre":"Total. Todas las edades. Badajoz. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":665155.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":665286.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":665114.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":665246.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":666029.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":665910.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":665579.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":665384.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":666049.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":666324.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":666908.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":667108.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":667851.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":668561.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":668946.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":669478.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":671092.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":671341.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":672045.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":672127.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":673384.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131407", "Nombre":"Total. Todas las edades. Balears, Illes. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":1249844.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":1248020.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":1241571.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":1234681.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":1231768.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":1229555.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":1222509.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":1213977.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":1209906.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":1206684.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":1199002.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":1189263.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":1187043.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":1186410.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":1182298.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":1180773.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":1183415.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":1179492.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":1176816.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":1166084.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":1157928.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131406", "Nombre":"Total. Todas las edades. Barcelona. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":5959941.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":5938755.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":5913312.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":5891964.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":5877672.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":5867228.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":5841228.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":5818649.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":5797356.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":5772932.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":5746510.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":5719643.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":5699602.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":5696029.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":5685835.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":5694231.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":5702262.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":5693716.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":5690371.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":5659720.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":5622704.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131405", "Nombre":"Total. Todas las edades. Bizkaia. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":1167233.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":1165143.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":1162985.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":1160757.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":1159368.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":1157686.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":1155681.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":1154538.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":1153282.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":1151329.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":1150283.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":1149170.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":1148677.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":1148094.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":1148581.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":1150613.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":1153635.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":1155109.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":1154696.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":1150061.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":1147589.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131404", "Nombre":"Total. Todas las edades. Burgos. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":362663.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":361727.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":360525.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":359950.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":359740.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":358919.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":358084.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":357753.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":357370.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":356337.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":355703.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":355161.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":354846.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":354695.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":354500.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":355822.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":356042.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":356517.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":357121.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":356681.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":356607.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131403", "Nombre":"Total. Todas las edades. Cáceres. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":388190.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":387918.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":387920.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":388174.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":388652.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":388639.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":388291.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":388198.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":388257.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":388358.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":388172.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":388146.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":388957.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":389136.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":389439.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":389783.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":390544.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":391119.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":392925.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":393480.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":394541.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131402", "Nombre":"Total. Todas las edades. Cádiz. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":1261420.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":1261212.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":1259547.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":1258692.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":1258730.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":1258107.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":1256136.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":1255258.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":1254866.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":1254032.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":1252154.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":1250832.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":1250545.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":1250363.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":1249222.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":1248844.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":1249873.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":1247258.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":1247160.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":1244336.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":1243186.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131401", "Nombre":"Total. Todas las edades. Cantabria. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":593623.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":592932.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":591395.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":590781.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":590851.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":590114.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":588662.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":588356.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":588387.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":587527.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":586319.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":585451.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":585450.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":585400.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":584569.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":584705.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":584708.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":583107.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":583011.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":582260.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":581989.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131400", "Nombre":"Total. Todas las edades. Castellón/Castelló. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":627620.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":623959.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":619868.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":617602.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":615188.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":611724.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":608223.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":606492.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":604086.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":601127.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":597509.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":593956.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":591300.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":590129.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":587998.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":587716.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":587632.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":585426.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":584201.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":581533.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":579592.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131399", "Nombre":"Total. Todas las edades. Ciudad Real. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":494848.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":494287.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":493549.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":493034.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":492948.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":492602.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":491840.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":491714.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":491927.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":491600.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":491294.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":490745.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":490950.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":491175.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":491283.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":491824.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":492900.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":492395.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":494817.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":494784.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":495686.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131398", "Nombre":"Total. Todas las edades. Córdoba. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":773163.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":773798.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":773309.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":773158.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":774313.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":774305.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":774486.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":774560.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":775002.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":774217.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":774031.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":774259.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":775110.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":774843.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":775621.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":776324.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":777622.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":779472.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":780825.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":781172.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":780982.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131397", "Nombre":"Total. Todas las edades. Coruña, A. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":1135623.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":1133366.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":1130214.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":1129547.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":1128449.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":1127157.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":1124782.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":1123914.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":1123884.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":1122508.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":1121062.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":1119875.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":1119164.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":1118493.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":1117861.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":1119053.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":1120501.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":1121275.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":1121994.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":1119930.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":1120432.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131396", "Nombre":"Total. Todas las edades. Cuenca. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":199859.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":199519.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":199071.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":198834.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":199025.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":198742.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":198492.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":198538.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":198436.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":197737.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":197219.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":196710.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":196640.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":196399.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":196270.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":196501.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":196510.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":196272.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":197537.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":197397.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":197617.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131395", "Nombre":"Total. Todas las edades. Gipuzkoa. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":733149.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":732732.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":731460.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":730036.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":729722.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":728446.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":727285.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":726855.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":726712.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":725455.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":724251.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":723398.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":723241.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":723091.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":722730.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":723970.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":725508.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":725406.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":724347.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":721669.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":719613.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131394", "Nombre":"Total. Todas las edades. Girona. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":830429.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":829192.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":825989.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":822719.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":821108.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":818594.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":814110.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":811337.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":808672.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":804926.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":799546.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":795276.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":790432.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":788604.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":785280.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":785258.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":784941.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":779921.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":776698.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":770154.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":765476.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131393", "Nombre":"Total. Todas las edades. Granada. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":945797.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":943822.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":941691.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":940484.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":939741.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":937954.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":936498.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":935278.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":934072.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":930898.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":928788.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":927176.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":926019.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":925190.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":924414.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":924564.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":925046.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":922462.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":921966.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":918655.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":916879.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131392", "Nombre":"Total. Todas las edades. Guadalajara. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":285839.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":284336.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":282635.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":281199.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":280225.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":278843.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":277338.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":276238.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":275082.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":273035.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":271518.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":269899.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":268412.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":267321.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":266582.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":266456.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":265969.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":263700.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":262985.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":260813.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":259266.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131391", "Nombre":"Total. Todas las edades. Huelva. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":538789.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":538465.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":537572.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":536714.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":535734.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":535846.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":535465.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":534939.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":534084.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":533605.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":532533.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":531646.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":531094.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":530249.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":529742.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":528442.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":527254.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":525463.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":525333.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":523919.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":522138.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131390", "Nombre":"Total. Todas las edades. Huesca. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":230087.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":229410.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":228808.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":228388.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":228519.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":227924.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":227181.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":226909.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":226878.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":226238.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":225800.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":225130.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":225199.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":224653.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":224257.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":224512.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":223995.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":223043.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":222767.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":221551.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":220996.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131389", "Nombre":"Total. Todas las edades. Jaén. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":618143.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":617785.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":617664.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":618189.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":619055.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":619295.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":619436.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":619949.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":620637.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":621203.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":622302.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":622737.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":624191.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":624687.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":625358.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":626404.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":627568.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":629027.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":630524.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":631585.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":633375.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131388", "Nombre":"Total. Todas las edades. León. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":448030.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":447806.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":447341.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":447408.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":447802.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":447912.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":447833.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":447996.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":448573.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":448656.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":448673.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":448609.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":449270.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":449842.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":450359.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":451024.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":452435.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":454029.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":456697.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":458127.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":460247.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131387", "Nombre":"Total. Todas las edades. Lleida. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":458226.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":455848.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":454102.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":452496.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":451707.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":450409.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":448929.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":447984.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":447343.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":446511.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":444419.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":442588.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":440883.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":439411.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":438325.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":439143.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":439258.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":438140.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":437508.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":434435.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":432917.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131386", "Nombre":"Total. Todas las edades. Lugo. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":326022.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":325415.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":324596.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":324812.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":325048.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":324544.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":324132.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":324136.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":324267.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":324007.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":323918.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":323950.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":324240.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":324358.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":324597.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":325416.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":326068.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":326511.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":327573.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":328198.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":329070.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131385", "Nombre":"Total. Todas las edades. Madrid. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":7113886.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":7085755.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":7047812.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":7026574.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":7009268.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":6965673.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":6933145.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":6911020.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":6871903.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":6851312.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":6824710.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":6784314.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":6743254.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":6732454.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":6717668.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":6716310.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":6726640.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":6728831.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":6720310.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":6661366.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":6618078.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131384", "Nombre":"Total. Todas las edades. Málaga. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":1791183.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":1788363.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":1782635.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":1777921.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":1774701.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":1770313.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":1764368.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":1759625.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":1752728.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":1744005.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":1733711.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":1723433.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":1715109.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":1709747.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":1703801.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":1698091.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":1696955.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":1686076.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":1683380.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":1670154.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":1660348.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131383", "Nombre":"Total. Todas las edades. Murcia. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":1586989.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":1582254.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":1576891.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":1572241.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":1568492.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":1564023.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":1558016.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":1555233.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":1551692.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":1545698.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":1540774.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":1535248.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":1529658.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":1525492.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":1521411.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":1518812.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":1518279.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":1513834.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":1509077.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":1498997.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":1491312.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131382", "Nombre":"Total. Todas las edades. Navarra. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":683854.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":682408.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":680476.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":679090.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":678333.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":676571.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":674290.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":672873.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":672155.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":670606.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":667958.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":666111.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":664514.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":662964.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":661286.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":661769.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":662032.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":661008.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":659907.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":655668.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":652797.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131381", "Nombre":"Total. Todas las edades. Ourense. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":305278.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":304779.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":303942.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":303869.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":304467.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":304398.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":304008.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":304146.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":304563.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":304368.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":304225.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":303908.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":304223.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":304446.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":304156.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":304615.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":305297.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":305656.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":306825.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":306713.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":307764.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131380", "Nombre":"Total. Todas las edades. Palencia. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":158702.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":158517.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":158066.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":158014.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":158063.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":157931.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":157660.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":157654.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":157787.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":157871.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":158005.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":157904.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":157993.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":158138.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":158311.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":158569.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":159146.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":159827.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":160357.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":160625.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":161053.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131379", "Nombre":"Total. Todas las edades. Palmas, Las. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":1171547.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":1169456.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":1165222.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":1162402.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":1159890.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":1155670.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":1152202.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":1149174.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":1145843.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":1142688.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":1139398.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":1136069.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":1133733.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":1131222.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":1129636.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":1130862.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":1131359.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":1134048.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":1131195.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":1125339.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":1121686.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131378", "Nombre":"Total. Todas las edades. Pontevedra. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":947818.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":947943.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":947080.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":947321.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":947869.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":947487.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":946294.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":946241.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":946710.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":946404.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":945557.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":944782.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":945198.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":944923.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":944358.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":945213.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":946311.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":945388.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":946213.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":943844.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":942944.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131377", "Nombre":"Total. Todas las edades. Rioja, La. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":326803.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":326139.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":325215.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":324609.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":324184.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":324408.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":323393.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":322837.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":322282.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":321679.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":320985.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":320156.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":319617.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":319621.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":319231.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":319457.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":319444.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":319123.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":318703.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":317044.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":315967.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131376", "Nombre":"Total. Todas las edades. Salamanca. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":328446.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":327752.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":327337.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":327201.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":327552.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":327297.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":326787.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":326771.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":327089.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":326854.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":326545.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":326114.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":326285.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":326125.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":326233.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":326898.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":327735.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":328695.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":330834.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":331187.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":332044.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131375", "Nombre":"Total. Todas las edades. Santa Cruz de Tenerife. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":1087319.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":1085565.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":1081721.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":1079878.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":1078864.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":1075888.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":1072083.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":1069973.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":1067173.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":1062661.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":1057929.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":1053850.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":1051874.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":1048747.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":1047280.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":1047076.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":1047565.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":1046360.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":1045045.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":1037706.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":1031630.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131374", "Nombre":"Total. Todas las edades. Segovia. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":158251.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":157679.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":157156.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":156806.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":156620.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":156176.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":155870.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":155708.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":155332.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":154576.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":154224.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":153958.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":153731.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":153698.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":153588.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":153846.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":153626.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":153075.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":153641.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":153481.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":153571.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131373", "Nombre":"Total. Todas las edades. Sevilla. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":1977664.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":1974963.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":1971903.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":1970108.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":1968624.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":1966439.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":1963007.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":1960628.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":1959394.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":1956169.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":1952904.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":1950812.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":1949558.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":1947236.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":1947691.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":1948821.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":1950056.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":1950099.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":1947848.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":1943579.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":1941191.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131372", "Nombre":"Total. Todas las edades. Soria. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":90183.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":90117.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":89980.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":89920.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":90073.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":90096.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":89790.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":89604.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":89528.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":89218.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":88901.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":88424.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":88330.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":88426.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":88399.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":88648.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":88796.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":88755.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":89302.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":89024.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":89008.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131371", "Nombre":"Total. Todas las edades. Tarragona. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":875530.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":873127.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":867716.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":864273.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":861744.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":858738.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":854134.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":851557.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":848592.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":843831.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":838842.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":834628.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":830906.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":828766.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":825045.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":823872.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":823435.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":818134.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":815746.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":808671.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":803528.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131370", "Nombre":"Total. Todas las edades. Teruel. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":136091.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":135955.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":135487.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":135214.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":135309.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":135193.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":135072.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":135139.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":135046.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":134866.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":134576.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":134190.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":134132.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":134025.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":133977.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":134052.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":134259.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":133975.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":134085.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":133848.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":134025.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131369", "Nombre":"Total. Todas las edades. Toledo. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":755081.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":751947.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":747980.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":745393.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":743165.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":740232.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":736427.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":733716.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":731112.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":726881.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":722990.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":719061.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":716309.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":712673.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":710653.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":710827.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":710400.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":706706.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":704792.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":699955.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":696390.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131368", "Nombre":"Total. Todas las edades. Valencia/València. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":2763996.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":2751825.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":2737066.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":2723132.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":2710808.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":2698576.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":2681981.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":2668402.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":2656841.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":2641519.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":2629320.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":2617117.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":2609322.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":2601300.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":2592829.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":2589824.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":2593243.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":2588844.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":2584654.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":2567704.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":2554332.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131367", "Nombre":"Total. Todas las edades. Valladolid. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":528644.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":527331.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":526141.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":525655.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":525116.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":523937.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":522844.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":522143.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":521333.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":520433.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":519676.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":518983.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":518158.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":518018.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":517808.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":518440.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":519380.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":520046.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":520904.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":520354.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":520483.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131366", "Nombre":"Total. Todas las edades. Zamora. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":165564.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":165749.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":165642.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":165920.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":166253.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":166533.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":166487.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":166590.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":166927.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":166949.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":167197.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":167414.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":167868.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":168086.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":168411.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":168758.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":169165.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":170186.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":171301.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":172220.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":173318.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131365", "Nombre":"Total. Todas las edades. Zaragoza. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":998443.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":995455.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":992014.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":989350.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":987763.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":985335.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":982994.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":981234.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":979365.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":976357.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":974102.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":970609.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":968884.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":973533.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":972477.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":972766.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":973684.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":974526.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":973740.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":969010.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":965673.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131364", "Nombre":"Total. Todas las edades. Ceuta. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":83567.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":83472.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":83274.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":83148.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":83179.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":83084.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":82935.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":82925.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":83052.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":82882.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":82792.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":82752.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":83051.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":82913.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":83111.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":83626.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":84071.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":84455.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":84502.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":84794.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":85087.0, "Secreto":false}
+]
+}
+,{"COD":"ECP131363", "Nombre":"Total. Todas las edades. Melilla. Población. Número. ", "FK_Unidad":3, "FK_Escala":1, "Data":[{"Fecha":1735686000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2025, "Valor":87067.0, "Secreto":false}
+,{"Fecha":1727733600000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2024, "Valor":86641.0, "Secreto":false}
+,{"Fecha":1719784800000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2024, "Valor":86520.0, "Secreto":false}
+,{"Fecha":1711922400000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2024, "Valor":86294.0, "Secreto":false}
+,{"Fecha":1704063600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2024, "Valor":85985.0, "Secreto":false}
+,{"Fecha":1696111200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2023, "Valor":85650.0, "Secreto":false}
+,{"Fecha":1688162400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2023, "Valor":85483.0, "Secreto":false}
+,{"Fecha":1680300000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2023, "Valor":85427.0, "Secreto":false}
+,{"Fecha":1672527600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2023, "Valor":85493.0, "Secreto":false}
+,{"Fecha":1664575200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2022, "Valor":85272.0, "Secreto":false}
+,{"Fecha":1656626400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2022, "Valor":84825.0, "Secreto":false}
+,{"Fecha":1648764000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2022, "Valor":84615.0, "Secreto":false}
+,{"Fecha":1640991600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2022, "Valor":84932.0, "Secreto":false}
+,{"Fecha":1633039200000, "FK_TipoDato":1, "FK_Periodo":22, "Anyo":2021, "Valor":85607.0, "Secreto":false}
+,{"Fecha":1625090400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2021, "Valor":85763.0, "Secreto":false}
+,{"Fecha":1617228000000, "FK_TipoDato":1, "FK_Periodo":20, "Anyo":2021, "Valor":85987.0, "Secreto":false}
+,{"Fecha":1609455600000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2021, "Valor":86450.0, "Secreto":false}
+,{"Fecha":1593554400000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2020, "Valor":86552.0, "Secreto":false}
+,{"Fecha":1577833200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2020, "Valor":86558.0, "Secreto":false}
+,{"Fecha":1561932000000, "FK_TipoDato":1, "FK_Periodo":21, "Anyo":2019, "Valor":86324.0, "Secreto":false}
+,{"Fecha":1546297200000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2019, "Valor":86373.0, "Secreto":false}
+]
+}
+]
