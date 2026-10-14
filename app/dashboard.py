@@ -441,8 +441,8 @@ with pestanas[3]:
 def clave_api() -> str | None:
     """Busca la clave de API en st.secrets (nube) o en el entorno / .env (local)."""
     try:
-        if "ANTHROPIC_API_KEY" in st.secrets:
-            return st.secrets["ANTHROPIC_API_KEY"]
+        if "GEMINI_API_KEY" in st.secrets:
+            return st.secrets["GEMINI_API_KEY"]
     except Exception:  # no existe secrets.toml en local: no es un error
         pass
     try:
@@ -450,7 +450,7 @@ def clave_api() -> str | None:
         load_dotenv(RAIZ / ".env")
     except ImportError:
         pass
-    return os.getenv("ANTHROPIC_API_KEY") or None
+    return os.getenv("GEMINI_API_KEY") or None
 
 
 def grafico_automatico(datos: pd.DataFrame) -> go.Figure | None:
@@ -490,12 +490,12 @@ EJEMPLOS = [
 
 with pestanas[4]:
     st.subheader("Pregúntale a los datos")
-    st.markdown("Escribe una pregunta en español. Un modelo de lenguaje (Claude, de Anthropic) la "
+    st.markdown("Escribe una pregunta en español. Un modelo de lenguaje (Gemini, de Google) la "
                 "convierte en una consulta SQL, que se ejecuta **en modo solo lectura** sobre la "
                 "base de datos. Verás la respuesta, los datos y la consulta usada.")
     clave = clave_api()
     if not clave:
-        st.warning("El asistente no está disponible: falta la clave de API (`ANTHROPIC_API_KEY`) "
+        st.warning("El asistente no está disponible: falta la clave de API (`GEMINI_API_KEY`) "
                    "en el fichero `.env` o en los *Secrets* de Streamlit. El resto del dashboard "
                    "funciona con normalidad.")
     else:
@@ -596,7 +596,7 @@ IBM Data Analyst Professional Certificate
 - [GitHub]({GITHUB})
 - [Código del proyecto]({REPO})
 
-**Tecnologías.** Python, pandas, SQLite/SQL, Plotly, Streamlit, statsmodels y la API de Claude.
+**Tecnologías.** Python, pandas, SQLite/SQL, Plotly, Streamlit, statsmodels y la API de Gemini.
 
 **Limitaciones.** Los datos son agregados por trimestre, sin el cruce hospital × especialidad
 en la lista quirúrgica. La demora media depende de la complejidad de los casos y no mide la calidad.

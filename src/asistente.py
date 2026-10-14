@@ -4,7 +4,7 @@ consulta SQL, la ejecuta de forma segura sobre la base de datos y redacta la
 respuesta.
 
 Flujo:
-  1. El modelo de lenguaje (Claude, de Anthropic) recibe el esquema de la base
+  1. El modelo de lenguaje (Gemini, de Google, en su plan gratuito) recibe el esquema de la base
      de datos (tablas, columnas, tipos y 3 filas de ejemplo) y la pregunta, y
      devuelve SOLO una consulta SQL.
   2. La consulta pasa por tres capas de seguridad antes de tocar los datos:
@@ -16,8 +16,10 @@ Flujo:
      la corrija. Si vuelve a fallar, se muestra un mensaje amable.
   4. El modelo redacta una respuesta corta en español a partir de los resultados.
 
-La clave de API se lee de la variable de entorno ANTHROPIC_API_KEY (fichero
+La clave de API se lee de la variable de entorno GEMINI_API_KEY (fichero
 .env en local, st.secrets en Streamlit Cloud). Nunca se escribe en el código.
+El modelo se elige con ASISTENTE_MODELO (por defecto, un modelo Flash del plan
+gratuito de la API de Gemini).
 """
 
 from __future__ import annotations
@@ -33,7 +35,7 @@ import pandas as pd
 RAIZ = Path(__file__).resolve().parent.parent
 RUTA_BD = RAIZ / "data" / "sanidad_cyl.db"
 
-MODELO = os.getenv("ASISTENTE_MODELO", "claude-opus-5-5")
+MODELO = os.getenv("ASISTENTE_MODELO", "gemini-3.8-flash")
 LIMITE_FILAS = 500
 
 # Palabras que nunca pueden aparecer en la consulta (fuera de textos entre comillas)
@@ -178,59 +180,49 @@ ESQUEMA DE LA BASE DE DATOS:
 # Llamadas al modelo
 # ---------------------------------------------------------------------------
 
-def _texto(respuesta) -> str:
-    """Extrae el texto de la respuesta del modelo (ignora bloques de razonamiento)."""
-    if respuesta.stop_reason == "refusal":
-        raise RuntimeError("El modelo ha rechazado responder a esta pregunta.")
-    return "".join(b.text for b in respuesta.content if b.type == "text").strip()
+def _llamar(cliente, instrucciones: str, mensaje: str, razonamiento: str) -> str:
+    """Hace una llamada al modelo y devuelve el texto de la respuesta.
 
-
-def _llamar(cliente, sistema: list[dict], mensaje: str, esfuerzo: str) -> str:
-    """Hace una llamada al modelo y devuelve el texto.
-
-    - El bloque de sistema (con el esquema) se marca para la caché de prompts:
-      se repite en todas las preguntas, así que las siguientes llamadas son
-      más rápidas y baratas.
-    - `fallbacks="default"`: si el modelo principal rechazara una petición por
-      sus filtros de seguridad, la API la reintenta automáticamente con un
-      modelo alternativo (función beta de Anthropic).
+    Usa la API "Interactions" del SDK google-genai: `system_instruction` lleva
+    las instrucciones fijas (y el esquema) e `input` la pregunta concreta.
+    `thinking_level` regula cuánto "piensa" el modelo antes de responder:
+    más para escribir SQL, menos para redactar la respuesta.
     """
-    respuesta = cliente.beta.messages.create(
+    respuesta = cliente.interactions.create(
         model=MODELO,
-        max_tokens=16000,
-        system=sistema,
-        messages=[{"role": "user", "content": mensaje}],
-        output_config={"effort": esfuerzo},
-        betas=["server-side-fallback-2026-07-01"],
-        fallbacks="default",
+        system_instruction=instrucciones,
+        input=mensaje,
+        generation_config={"thinking_level": razonamiento},
     )
-    return _texto(respuesta)
+    texto = (respuesta.output_text or "").strip()
+    if not texto:
+        raise RuntimeError("El modelo no ha devuelto ninguna respuesta.")
+    return texto
 
 
 def generar_sql(cliente, esquema: str, pregunta: str,
                 sql_fallida: str | None = None, error: str | None = None) -> str:
     """Pide al modelo la consulta SQL. Si se pasa un error, le pide que la corrija."""
-    sistema = [{"type": "text", "text": INSTRUCCIONES + esquema,
-                "cache_control": {"type": "ephemeral"}}]
     mensaje = f"Pregunta: {pregunta}"
     if error:
         mensaje += (f"\n\nEsta consulta anterior falló:\n{sql_fallida}\n\nError: {error}\n\n"
                     "Corrígela y devuelve solo la consulta SQL corregida.")
-    return limpiar_respuesta_sql(_llamar(cliente, sistema, mensaje, esfuerzo="medium"))
+    return limpiar_respuesta_sql(_llamar(cliente, INSTRUCCIONES + esquema, mensaje,
+                                         razonamiento="medium"))
 
 
 def redactar_respuesta(cliente, pregunta: str, sql: str, datos: pd.DataFrame) -> str:
     """Pide al modelo una respuesta breve en español basada SOLO en los resultados."""
-    sistema = [{"type": "text", "text": (
+    instrucciones = (
         "Eres un analista de datos sanitarios. Respondes en español, en 2-4 frases claras, "
         "a partir EXCLUSIVAMENTE de los resultados de la consulta que se te dan. "
         "No inventes cifras. Usa separador de miles con punto y redondea las demoras a días "
         "enteros. Si los resultados están vacíos, dilo. Si los datos proceden de consultas "
-        "externas y no de la lista quirúrgica, acláralo. No uses encabezados ni listas.")}]
+        "externas y no de la lista quirúrgica, acláralo. No uses encabezados ni listas.")
     muestra = datos.head(50).to_string(index=False) if not datos.empty else "(sin resultados)"
     mensaje = (f"Pregunta: {pregunta}\n\nConsulta SQL usada:\n{sql}\n\n"
                f"Resultados ({len(datos)} filas, se muestran hasta 50):\n{muestra}")
-    return _llamar(cliente, sistema, mensaje, esfuerzo="low")
+    return _llamar(cliente, instrucciones, mensaje, razonamiento="low")
 
 
 # ---------------------------------------------------------------------------
@@ -249,12 +241,12 @@ class Resultado:
 
 
 def crear_cliente(clave: str | None = None):
-    """Crea el cliente de Anthropic. Devuelve None si no hay clave."""
-    clave = clave or os.getenv("ANTHROPIC_API_KEY")
+    """Crea el cliente de la API de Gemini. Devuelve None si no hay clave."""
+    clave = clave or os.getenv("GEMINI_API_KEY")
     if not clave:
         return None
-    import anthropic  # importación aquí: el resto del proyecto funciona sin el paquete
-    return anthropic.Anthropic(api_key=clave)
+    from google import genai  # importación aquí: el resto del proyecto funciona sin el paquete
+    return genai.Client(api_key=clave)
 
 
 def responder(pregunta: str, cliente, esquema: str | None = None,
@@ -294,6 +286,6 @@ if __name__ == "__main__":
     load_dotenv(RAIZ / ".env")
     cliente = crear_cliente()
     if cliente is None:
-        sys.exit("Falta ANTHROPIC_API_KEY en el fichero .env")
+        sys.exit("Falta GEMINI_API_KEY en el fichero .env")
     r = responder(" ".join(sys.argv[1:]) or "¿Qué provincia tiene más demora quirúrgica?", cliente)
     print(r.sql, "\n", r.datos.head(10), "\n", r.respuesta or r.error)

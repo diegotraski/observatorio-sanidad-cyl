@@ -66,7 +66,7 @@ Todo se regenera con **un solo comando**: `python ejecutar_todo.py`.
 
 ## Tecnologías
 
-Python 3.12 · pandas · SQLite / SQL · Jupyter · Plotly · Streamlit · statsmodels · shapely · API de Claude (Anthropic) · pytest · git y GitHub · Streamlit Community Cloud
+Python 3.12 · pandas · SQLite / SQL · Jupyter · Plotly · Streamlit · statsmodels · shapely · API de Gemini (Google, plan gratuito) · pytest · git y GitHub · Streamlit Community Cloud
 
 ## Estructura
 
@@ -109,7 +109,7 @@ pip install -r requirements-dev.txt
    ```bash
    python ejecutar_todo.py
    ```
-2. **(Opcional) Activar el asistente de IA.** Copia `.env.example` como `.env` y pega tu clave de [Anthropic](https://console.anthropic.com/settings/keys) en `ANTHROPIC_API_KEY`.
+2. **(Opcional) Activar el asistente de IA.** Copia `.env.example` como `.env` y pega tu clave gratuita de [Google AI Studio](https://aistudio.google.com/apikey) en `GEMINI_API_KEY`.
 3. **Arrancar el dashboard:**
    ```bash
    streamlit run app/dashboard.py

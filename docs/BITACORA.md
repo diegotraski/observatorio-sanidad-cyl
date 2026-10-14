@@ -173,7 +173,7 @@ Diario de decisiones, fase a fase. Cada entrada resume qué se hizo y por qué.
 
 ## Fase 7 · Asistente de IA (texto a SQL)
 
-- **Proveedor:** Claude (Anthropic), modelo `claude-opus-5-5`, configurable con `ASISTENTE_MODELO`.
+- **Proveedor:** al principio, Claude (Anthropic). Después se cambió a **Gemini (Google)** para que el proyecto fuera gratuito; ver la nota de la fase 8.
 - **Flujo (`src/asistente.py`):**
   1. Se describe el esquema: tablas y vistas, columnas, tipos y 3 filas de ejemplo.
   2. El modelo devuelve SOLO una consulta SQL.
@@ -193,9 +193,6 @@ Diario de decisiones, fase a fase. Cada entrada resume qué se hizo y por qué.
   - Respuesta redactada, gráfico automático (línea si hay fechas, barras si hay categorías), tabla y la consulta SQL en un desplegable.
   - 5 preguntas de ejemplo como botones.
 - **Clave de API:** `.env` con `python-dotenv` en local y `st.secrets` en la nube. Sin clave, la pestaña avisa y el resto del dashboard funciona.
-- Otras decisiones:
-  - El bloque de sistema con el esquema usa **caché de prompts**, porque se repite en cada pregunta.
-  - Activado `fallbacks="default"` (función beta de Anthropic): si el modelo rechazara una petición por sus filtros de seguridad, la API la reintenta con un modelo alternativo.
 - **Tests (`tests/test_asistente.py`):**
   - El validador rechaza 15 consultas peligrosas y acepta 6 válidas, entre ellas un `'DROP TABLE'` dentro de un texto.
   - La conexión es de solo lectura, el límite de filas se aplica y el esquema incluye tablas y vistas.
@@ -236,3 +233,16 @@ Diario de decisiones, fase a fase. Cada entrada resume qué se hizo y por qué.
   - Una frase para el CV y una publicación para LinkedIn.
   - 12 preguntas de entrevista con sus respuestas.
   - Un mini examen de 10 preguntas sobre el código, con soluciones.
+
+### Cambio de proveedor del asistente: de Claude a Gemini (coste cero)
+
+- **Motivo:** la API de Claude se paga por uso y no tiene plan gratuito. Para una demo pública de portfolio se prefirió que el proyecto costara **0 €**.
+- **Nuevo proveedor:** Google Gemini, con su plan gratuito.
+  - La clave se obtiene en Google AI Studio sin tarjeta.
+  - El modelo por defecto es `gemini-3.8-flash`, uno de los que la página oficial de precios lista como gratuitos. Se puede cambiar con `ASISTENTE_MODELO`.
+  - SDK oficial `google-genai`, API `client.interactions.create`, con `system_instruction` (instrucciones y esquema), `input` (pregunta) y `thinking_level` (medio para escribir SQL, bajo para redactar).
+- **Qué no cambia:** las tres capas de seguridad, el reintento con el error, el límite de 500 filas y los tests. El cambio afecta solo a dos funciones (`crear_cliente` y `_llamar`) gracias a que el resto del código no depende del proveedor.
+- **Contrapartidas asumidas:**
+  - En el plan gratuito Google puede usar las peticiones para mejorar sus productos. Aquí no importa: los datos son públicos y no se piden datos personales.
+  - Hay límites de peticiones por minuto y por día. Si se superan, el asistente muestra un mensaje amable y el resto del dashboard sigue funcionando.
+- La variable de entorno pasa a llamarse `GEMINI_API_KEY`, tanto en `.env` como en los *Secrets* de Streamlit.
