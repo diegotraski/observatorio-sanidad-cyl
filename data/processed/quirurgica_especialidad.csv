@@ -1,0 +1,407 @@
+fecha,especialidad,pacientes_total,pacientes_estructurales,pacientes_no_programables,pacientes_rechazo_centro_alternativo,demora_media_dias,demora_media_rechazo_dias
+2018-12-31,Angiología y Cirugía Vascular,598,448,104,46,48.1,
+2018-12-31,Cirugía Cardiaca,141,101,40,,60.5,
+2018-12-31,Cirugía General y Digestiva,5716,4373,809,534,63.5,
+2018-12-31,Cirugía Oral y Maxilofacial,233,174,59,,69.6,
+2018-12-31,Cirugía Pediátrica,468,360,74,34,66.3,
+2018-12-31,Cirugía Plástica y Reparadora,1233,959,233,41,81.1,
+2018-12-31,Cirugía Torácica,42,39,3,,35.7,
+2018-12-31,Dermatología,259,198,61,,27.3,
+2018-12-31,Ginecología,1093,925,168,,48.9,
+2018-12-31,Neurocirugía,544,401,143,,85.3,
+2018-12-31,Oftalmología,5502,4128,832,542,40.2,
+2018-12-31,Otorrinolaringología,2320,2001,287,32,59.2,
+2018-12-31,Traumatología y Cirugía Ortopédica,10341,6551,2394,1396,83.3,
+2018-12-31,Urología,2264,1866,374,24,73.9,
+2019-09-30,Angiología y Cirugía Vascular,721,439,78,204,51.1,120.0
+2019-09-30,Cirugía Cardiaca,115,105,10,0,60.1,
+2019-09-30,Cirugía General y Digestiva,6615,4549,624,1442,85.0,142.0
+2019-09-30,Cirugía Oral y Maxilofacial,268,257,11,0,95.3,
+2019-09-30,Cirugía Pediátrica,665,632,33,0,91.7,
+2019-09-30,Cirugía Plástica y Reparadora,1460,1208,160,92,118.8,118.0
+2019-09-30,Cirugía Torácica,85,84,1,0,36.9,
+2019-09-30,Dermatología,281,237,44,0,21.7,
+2019-09-30,Ginecología,1194,1090,104,0,57.1,
+2019-09-30,Neurocirugía,571,510,51,10,108.3,17.0
+2019-09-30,Oftalmología,6190,4608,395,1187,54.4,69.0
+2019-09-30,Otorrinolaringología,2538,2264,207,67,70.0,152.0
+2019-09-30,Traumatología y Cirugía Ortopédica,11150,8498,1167,1485,115.7,186.0
+2019-09-30,Urología,2947,2743,198,6,92.9,308.0
+2019-12-31,Angiología y Cirugía Vascular,686,425,57,204,58.5,134.1
+2019-12-31,Cirugía Cardiaca,120,110,10,0,47.8,
+2019-12-31,Cirugía General y Digestiva,6957,5207,615,1135,91.8,195.9
+2019-12-31,Cirugía Oral y Maxilofacial,292,262,30,0,86.8,
+2019-12-31,Cirugía Pediátrica,773,763,10,0,100.5,
+2019-12-31,Cirugía Plástica y Reparadora,1486,1297,97,92,125.0,108.3
+2019-12-31,Cirugía Torácica,87,83,4,0,30.7,
+2019-12-31,Dermatología,290,252,38,0,28.9,
+2019-12-31,Ginecología,1227,1124,103,0,58.3,
+2019-12-31,Neurocirugía,540,497,18,25,116.5,73.5
+2019-12-31,Oftalmología,5605,4656,433,516,50.5,68.2
+2019-12-31,Otorrinolaringología,2719,2428,247,44,74.3,183.2
+2019-12-31,Traumatología y Cirugía Ortopédica,11629,9584,858,1187,124.8,218.0
+2019-12-31,Urología,2903,2575,260,68,88.2,198.5
+2020-03-31,Angiología y Cirugía Vascular,642,401,59,182,65.1,122.7
+2020-03-31,Cirugía Cardiaca,139,137,2,0,54.1,
+2020-03-31,Cirugía General y Digestiva,7187,5381,586,1220,109.9,219.0
+2020-03-31,Cirugía Oral y Maxilofacial,279,249,30,0,99.3,
+2020-03-31,Cirugía Pediátrica,775,729,46,0,117.3,
+2020-03-31,Cirugía Plástica y Reparadora,1462,1264,101,97,142.6,109.5
+2020-03-31,Cirugía Torácica,82,77,5,0,36.1,
+2020-03-31,Dermatología,241,197,44,0,44.7,
+2020-03-31,Ginecología,1257,1144,113,0,64.2,
+2020-03-31,Neurocirugía,541,477,37,27,129.2,88.7
+2020-03-31,Oftalmología,5826,4435,552,839,59.4,78.1
+2020-03-31,Otorrinolaringología,2757,2457,244,56,88.8,169.5
+2020-03-31,Traumatología y Cirugía Ortopédica,11750,9446,910,1394,145.3,210.0
+2020-03-31,Urología,2996,2712,213,71,102.2,238.9
+2020-06-30,Angiología y Cirugía Vascular,523,330,78,115,114.1,191.2
+2020-06-30,Cirugía Cardiaca,132,127,5,,78.4,
+2020-06-30,Cirugía General y Digestiva,6594,4743,564,1287,166.5,282.7
+2020-06-30,Cirugía Oral y Maxilofacial,255,225,30,,152.4,
+2020-06-30,Cirugía Pediátrica,690,657,33,,174.7,
+2020-06-30,Cirugía Plástica y Reparadora,1224,1028,157,39,201.3,121.2
+2020-06-30,Cirugía Torácica,76,71,5,,66.9,
+2020-06-30,Dermatología,166,131,35,,34.3,
+2020-06-30,Ginecología,1156,1031,125,,94.0,
+2020-06-30,Neurocirugía,535,470,35,30,171.1,161.4
+2020-06-30,Oftalmología,5015,3693,603,719,110.5,145.9
+2020-06-30,Otorrinolaringología,2248,1897,293,58,138.2,249.9
+2020-06-30,Traumatología y Cirugía Ortopédica,10793,8533,1052,1208,196.6,249.1
+2020-06-30,Urología,2704,2411,231,62,143.8,309.4
+2020-09-30,Angiología y Cirugía Vascular,497,348,74,75,81.2,181.0
+2020-09-30,Cirugía Cardiaca,161,159,2,,62.2,
+2020-09-30,Cirugía General y Digestiva,6739,5092,518,1129,154.8,309.5
+2020-09-30,Cirugía Oral y Maxilofacial,266,253,13,0,146.4,
+2020-09-30,Cirugía Pediátrica,784,758,26,0,163.9,
+2020-09-30,Cirugía Plástica y Reparadora,1315,1185,96,34,200.3,111.8
+2020-09-30,Cirugía Torácica,79,69,10,0,48.6,
+2020-09-30,Dermatología,329,291,38,0,40.1,
+2020-09-30,Ginecología,1252,1140,112,0,98.4,
+2020-09-30,Neurocirugía,619,566,34,19,137.6,211.8
+2020-09-30,Oftalmología,4642,3926,329,387,72.8,99.0
+2020-09-30,Otorrinolaringología,1982,1711,224,47,131.2,285.9
+2020-09-30,Traumatología y Cirugía Ortopédica,11033,8957,870,1206,211.8,264.5
+2020-09-30,Urología,2803,2545,214,44,126.6,301.5
+2020-12-31,Angiología y Cirugía Vascular,652,512,49,91,112.3,185.4
+2020-12-31,Cirugía Cardiaca,197,193,4,,92.1,
+2020-12-31,Cirugía General y Digestiva,7371,5760,606,1005,152.3,342.4
+2020-12-31,Cirugía Oral y Maxilofacial,300,274,26,,147.6,
+2020-12-31,Cirugía Pediátrica,846,832,14,,180.5,
+2020-12-31,Cirugía Plástica y Reparadora,1493,1321,102,70,214.5,133.2
+2020-12-31,Cirugía Torácica,75,73,2,,46.0,
+2020-12-31,Dermatología,254,217,37,,69.9,
+2020-12-31,Ginecología,1467,1344,123,,96.3,
+2020-12-31,Neurocirugía,743,667,42,34,150.5,225.0
+2020-12-31,Oftalmología,5761,4940,323,498,67.3,88.0
+2020-12-31,Otorrinolaringología,1904,1644,225,35,123.7,318.5
+2020-12-31,Traumatología y Cirugía Ortopédica,12039,9842,953,1244,207.8,294.7
+2020-12-31,Urología,2984,2703,251,30,129.3,375.6
+2021-03-31,Angiología y Cirugía Vascular,853,678,44,131,139.6,212.7
+2021-03-31,Cirugía Cardiaca,201,194,7,0,109.6,
+2021-03-31,Cirugía General y Digestiva,8757,7096,608,1053,153.9,344.6
+2021-03-31,Cirugía Oral y Maxilofacial,349,337,12,0,135.8,
+2021-03-31,Cirugía Pediátrica,922,910,12,0,200.0,
+2021-03-31,Cirugía Plástica y Reparadora,1630,1473,81,76,232.4,113.4
+2021-03-31,Cirugía Torácica,111,106,5,0,58.8,
+2021-03-31,Dermatología,218,183,35,0,51.4,
+2021-03-31,Ginecología,1770,1670,100,0,104.0,
+2021-03-31,Neurocirugía,891,830,19,42,176.3,263.7
+2021-03-31,Oftalmología,8027,6954,369,704,68.9,125.8
+2021-03-31,Otorrinolaringología,2170,1980,165,25,112.5,304.5
+2021-03-31,Traumatología y Cirugía Ortopédica,13540,11390,836,1314,209.1,324.5
+2021-03-31,Urología,3448,3195,229,24,134.9,451.5
+2021-06-30,Angiología y Cirugía Vascular,859,657,60,142,98.5,207.5
+2021-06-30,Cirugía Cardiaca,169,160,9,0,65.1,
+2021-06-30,Cirugía General y Digestiva,8500,7021,637,842,138.9,350.3
+2021-06-30,Cirugía Oral y Maxilofacial,342,316,26,0,92.2,
+2021-06-30,Cirugía Pediátrica,963,943,20,0,168.5,
+2021-06-30,Cirugía Plástica y Reparadora,1669,1429,155,85,176.2,88.1
+2021-06-30,Cirugía Torácica,118,114,4,0,72.8,
+2021-06-30,Dermatología,259,239,20,0,24.9,
+2021-06-30,Ginecología,1635,1500,135,0,82.3,
+2021-06-30,Neurocirugía,867,792,51,24,152.8,267.7
+2021-06-30,Oftalmología,8961,7948,336,677,64.8,128.1
+2021-06-30,Otorrinolaringología,2194,1928,239,27,77.4,186.6
+2021-06-30,Traumatología y Cirugía Ortopédica,13471,11272,1012,1187,183.7,327.0
+2021-06-30,Urología,3271,3000,258,13,109.8,463.8
+2021-09-30,Angiología y Cirugía Vascular,1065,837,60,168,103.8,233.5
+2021-09-30,Cirugía Cardiaca,142,140,2,0,69.8,
+2021-09-30,Cirugía General y Digestiva,9451,8050,617,784,153.8,392.9
+2021-09-30,Cirugía Oral y Maxilofacial,391,377,14,,121.9,
+2021-09-30,Cirugía Pediátrica,1038,993,42,3,164.2,389.0
+2021-09-30,Cirugía Plástica y Reparadora,1806,1592,166,48,185.4,110.3
+2021-09-30,Cirugía Torácica,105,102,3,,93.1,
+2021-09-30,Dermatología,314,288,26,,31.3,
+2021-09-30,Ginecología,1742,1617,125,,103.8,
+2021-09-30,Neurocirugía,953,905,37,11,176.1,227.9
+2021-09-30,Oftalmología,10772,9681,338,753,85.8,158.8
+2021-09-30,Otorrinolaringología,2400,2126,258,16,95.1,227.0
+2021-09-30,Traumatología y Cirugía Ortopédica,14461,12162,884,1415,202.4,345.8
+2021-09-30,Urología,3648,3393,243,12,115.5,334.4
+2021-12-31,Angiología y Cirugía Vascular,1188,967,57,164,101.2,196.6
+2021-12-31,Cirugía Cardiaca,134,130,4,0,59.2,
+2021-12-31,Cirugía General y Digestiva,9961,8412,690,859,157.4,380.1
+2021-12-31,Cirugía Oral y Maxilofacial,375,357,18,0,114.9,
+2021-12-31,Cirugía Pediátrica,905,865,39,1,147.4,149.0
+2021-12-31,Cirugía Plástica y Reparadora,1885,1726,131,28,181.6,113.0
+2021-12-31,Cirugía Torácica,72,61,11,0,35.1,
+2021-12-31,Dermatología,343,279,64,0,49.2,
+2021-12-31,Ginecología,1543,1400,143,0,80.8,
+2021-12-31,Neurocirugía,964,919,42,3,178.6,259.7
+2021-12-31,Oftalmología,10510,9323,409,778,85.3,191.5
+2021-12-31,Otorrinolaringología,2470,2199,263,8,86.1,311.5
+2021-12-31,Traumatología y Cirugía Ortopédica,14982,12480,958,1544,200.0,321.7
+2021-12-31,Urología,3348,2989,324,35,120.2,203.7
+2022-03-31,Angiología y Cirugía Vascular,1378,1126,66,186,100.5,201.9
+2022-03-31,Cirugía Cardiaca,115,109,6,0,59.7,
+2022-03-31,Cirugía General y Digestiva,10210,8350,638,1222,153.3,350.9
+2022-03-31,Cirugía Oral y Maxilofacial,366,346,20,0,113.2,
+2022-03-31,Cirugía Pediátrica,905,877,27,1,107.3,239.0
+2022-03-31,Cirugía Plástica y Reparadora,1794,1594,103,97,171.0,89.8
+2022-03-31,Cirugía Torácica,85,81,4,0,46.7,
+2022-03-31,Dermatología,213,158,55,0,33.5,
+2022-03-31,Ginecología,1469,1335,134,0,57.4,
+2022-03-31,Neurocirugía,985,937,44,4,183.1,160.0
+2022-03-31,Oftalmología,10398,9516,383,499,89.7,141.6
+2022-03-31,Otorrinolaringología,2681,2416,263,2,79.2,404.0
+2022-03-31,Traumatología y Cirugía Ortopédica,15062,12736,901,1425,194.3,317.9
+2022-03-31,Urología,3320,2993,304,23,110.2,349.3
+2022-06-30,Angiología y Cirugía Vascular,1308,990,121,197,99.5,192.9
+2022-06-30,Cirugía Cardiaca,70,65,5,,36.5,
+2022-06-30,Cirugía General y Digestiva,9536,7570,856,1110,136.9,313.7
+2022-06-30,Cirugía Oral y Maxilofacial,388,371,17,,121.5,
+2022-06-30,Cirugía Pediátrica,887,822,65,,102.8,
+2022-06-30,Cirugía Plástica y Reparadora,1706,1453,203,50,150.8,110.0
+2022-06-30,Cirugía Torácica,92,80,12,,47.3,
+2022-06-30,Dermatología,176,140,36,,28.2,
+2022-06-30,Ginecología,1259,1135,124,,53.6,
+2022-06-30,Neurocirugía,934,875,58,1,177.0,385.0
+2022-06-30,Oftalmología,9019,8040,511,468,79.0,128.5
+2022-06-30,Otorrinolaringología,2699,2343,356,,76.1,
+2022-06-30,Traumatología y Cirugía Ortopédica,15063,12425,1321,1317,175.2,305.8
+2022-06-30,Urología,3309,2933,357,19,118.1,392.5
+2022-09-30,Angiología y Cirugía Vascular,1169,917,121,131,118.5,227.4
+2022-09-30,Cirugía Cardiaca,126,121,5,0,62.2,
+2022-09-30,Cirugía General y Digestiva,9512,7531,828,1153,144.9,294.9
+2022-09-30,Cirugía Oral y Maxilofacial,411,390,21,0,155.7,
+2022-09-30,Cirugía Pediátrica,851,793,58,0,113.6,
+2022-09-30,Cirugía Plástica y Reparadora,1624,1426,164,34,156.1,149.4
+2022-09-30,Cirugía Torácica,94,84,10,0,84.3,
+2022-09-30,Dermatología,223,177,46,0,34.2,
+2022-09-30,Ginecología,1332,1180,152,0,68.2,
+2022-09-30,Neurocirugía,942,870,72,0,169.3,
+2022-09-30,Oftalmología,9336,8274,563,499,77.8,134.9
+2022-09-30,Otorrinolaringología,2794,2455,339,0,88.1,
+2022-09-30,Traumatología y Cirugía Ortopédica,15535,12207,1316,2012,186.6,302.7
+2022-09-30,Urología,3398,3078,313,7,116.2,413.0
+2022-12-31,Angiología y Cirugía Vascular,966,677,116,173,75.3,171.9
+2022-12-31,Cirugía Cardiaca,111,103,8,0,48.8,
+2022-12-31,Cirugía General y Digestiva,8663,6851,923,889,133.6,251.2
+2022-12-31,Cirugía Oral y Maxilofacial,372,349,23,0,118.0,
+2022-12-31,Cirugía Pediátrica,768,666,102,0,82.6,
+2022-12-31,Cirugía Plástica y Reparadora,1512,1341,126,45,144.8,147.8
+2022-12-31,Cirugía Torácica,64,56,8,0,55.9,
+2022-12-31,Dermatología,238,186,52,0,35.3,
+2022-12-31,Ginecología,1130,966,163,1,50.5,205.0
+2022-12-31,Neurocirugía,868,796,72,0,157.3,
+2022-12-31,Oftalmología,6851,5809,605,437,63.9,81.7
+2022-12-31,Otorrinolaringología,2859,2535,324,0,90.8,
+2022-12-31,Traumatología y Cirugía Ortopédica,14551,10716,1428,2407,171.3,289.2
+2022-12-31,Urología,3268,2916,347,5,107.0,219.0
+2023-03-31,Angiología y Cirugía Vascular,867,612,90,165,60.2,100.2
+2023-03-31,Cirugía Cardiaca,110,104,6,0,35.5,
+2023-03-31,Cirugía General y Digestiva,8715,7309,816,590,123.5,200.1
+2023-03-31,Cirugía Oral y Maxilofacial,393,371,22,0,101.1,
+2023-03-31,Cirugía Pediátrica,707,654,53,0,68.2,
+2023-03-31,Cirugía Plástica y Reparadora,1410,1232,113,65,142.2,124.1
+2023-03-31,Cirugía Torácica,75,71,4,0,26.5,
+2023-03-31,Dermatología,275,228,47,0,30.0,
+2023-03-31,Ginecología,994,872,122,0,38.1,
+2023-03-31,Neurocirugía,853,791,60,2,138.5,37.0
+2023-03-31,Oftalmología,7107,6255,443,409,47.4,77.3
+2023-03-31,Otorrinolaringología,3136,2862,264,10,77.2,74.1
+2023-03-31,Traumatología y Cirugía Ortopédica,14950,11844,1248,1858,158.3,302.1
+2023-03-31,Urología,3295,3008,280,7,95.4,97.0
+2023-06-30,Angiología y Cirugía Vascular,811,638,96,77,75.5,75.6
+2023-06-30,Cirugía Cardiaca,108,102,6,0,44.6,
+2023-06-30,Cirugía General y Digestiva,8009,6423,803,783,105.9,231.2
+2023-06-30,Cirugía Oral y Maxilofacial,373,352,21,0,111.8,
+2023-06-30,Cirugía Pediátrica,631,563,68,0,63.0,
+2023-06-30,Cirugía Plástica y Reparadora,1351,1177,117,57,117.6,143.6
+2023-06-30,Cirugía Torácica,90,88,2,0,34.2,
+2023-06-30,Dermatología,235,183,52,0,30.1,
+2023-06-30,Ginecología,933,798,135,0,36.5,
+2023-06-30,Neurocirugía,826,770,55,1,141.8,23.0
+2023-06-30,Oftalmología,6892,5928,609,355,44.5,73.7
+2023-06-30,Otorrinolaringología,3105,2739,366,,81.9,
+2023-06-30,Traumatología y Cirugía Ortopédica,14846,11643,1729,1474,145.5,303.0
+2023-06-30,Urología,3104,2765,325,14,87.3,101.9
+2023-09-30,Angiología y Cirugía Vascular,1024,846,138,40,92.5,148.0
+2023-09-30,Cirugía Cardiaca,124,118,6,0,62.1,
+2023-09-30,Cirugía General y Digestiva,8794,6770,831,1193,106.4,229.4
+2023-09-30,Cirugía Oral y Maxilofacial,416,396,20,0,126.6,
+2023-09-30,Cirugía Pediátrica,634,598,36,0,73.3,
+2023-09-30,Cirugía Plástica y Reparadora,1368,1170,135,63,129.6,136.6
+2023-09-30,Cirugía Torácica,128,118,10,0,52.5,
+2023-09-30,Dermatología,263,226,37,0,37.3,
+2023-09-30,Ginecología,1216,1045,171,0,56.6,
+2023-09-30,Neurocirugía,903,837,66,0,164.5,
+2023-09-30,Oftalmología,6810,5477,590,743,58.2,76.2
+2023-09-30,Otorrinolaringología,3383,3013,370,0,105.9,
+2023-09-30,Traumatología y Cirugía Ortopédica,15515,12013,1696,1806,160.5,284.9
+2023-09-30,Urología,3551,3141,393,17,99.6,171.2
+2023-12-31,Angiología y Cirugía Vascular,1023,808,150,65,120.4,141.4
+2023-12-31,Cirugía Cardiaca,100,84,16,0,55.5,
+2023-12-31,Cirugía General y Digestiva,8116,5903,807,1406,105.2,241.7
+2023-12-31,Cirugía Oral y Maxilofacial,376,352,24,0,117.2,
+2023-12-31,Cirugía Pediátrica,522,476,46,0,86.8,
+2023-12-31,Cirugía Plástica y Reparadora,1327,1128,138,61,139.0,157.6
+2023-12-31,Cirugía Torácica,79,63,16,0,87.7,
+2023-12-31,Dermatología,144,109,35,0,25.0,
+2023-12-31,Ginecología,1055,920,134,1,48.9,74.0
+2023-12-31,Neurocirugía,890,794,96,0,183.9,
+2023-12-31,Oftalmología,5875,4434,591,850,47.3,74.8
+2023-12-31,Otorrinolaringología,3455,3077,378,0,111.3,
+2023-12-31,Traumatología y Cirugía Ortopédica,14688,10893,1834,1961,154.6,275.1
+2023-12-31,Urología,3262,2815,402,45,110.6,83.7
+2024-03-31,Angiología y Cirugía Vascular,993,765,133,95,126.1,124.4
+2024-03-31,Cirugía Cardiaca,106,102,4,0,50.7,
+2024-03-31,Cirugía General y Digestiva,8489,6451,839,1199,100.4,302.0
+2024-03-31,Cirugía Oral y Maxilofacial,376,358,18,0,105.0,
+2024-03-31,Cirugía Pediátrica,468,438,30,0,84.1,
+2024-03-31,Cirugía Plástica y Reparadora,1211,995,165,51,135.7,148.2
+2024-03-31,Cirugía Torácica,112,102,10,0,67.9,
+2024-03-31,Dermatología,212,189,23,0,26.2,
+2024-03-31,Ginecología,1108,985,122,1,44.5,165.0
+2024-03-31,Neurocirugía,921,820,101,0,174.7,
+2024-03-31,Oftalmología,6489,5615,394,480,44.4,67.7
+2024-03-31,Otorrinolaringología,3627,3241,385,1,113.5,185.0
+2024-03-31,Traumatología y Cirugía Ortopédica,14941,11812,1438,1691,157.7,301.6
+2024-03-31,Urología,3327,2961,351,15,109.2,102.6
+2024-06-30,Angiología y Cirugía Vascular,820,523,122,175,63.1,193.5
+2024-06-30,Cirugía Cardiaca,126,122,4,0,44.5,
+2024-06-30,Cirugía General y Digestiva,7819,5295,1070,1454,81.6,267.9
+2024-06-30,Cirugía Oral y Maxilofacial,280,260,20,0,99.7,
+2024-06-30,Cirugía Pediátrica,362,326,36,0,67.9,
+2024-06-30,Cirugía Plástica y Reparadora,1079,839,167,73,114.0,125.2
+2024-06-30,Cirugía Torácica,85,75,10,0,31.2,
+2024-06-30,Dermatología,194,179,15,0,21.2,
+2024-06-30,Ginecología,1038,913,125,0,47.0,
+2024-06-30,Neurocirugía,882,731,144,7,138.6,4.3
+2024-06-30,Oftalmología,5298,4404,388,506,42.4,45.0
+2024-06-30,Otorrinolaringología,3445,3036,408,1,97.3,276.0
+2024-06-30,Traumatología y Cirugía Ortopédica,14141,10603,1745,1793,140.2,273.1
+2024-06-30,Urología,3088,2732,322,34,103.3,203.8
+2024-09-30,Angiología y Cirugía Vascular,942,634,119,189,62.8,183.6
+2024-09-30,Cirugía Cardiaca,142,134,8,0,66.7,
+2024-09-30,Cirugía General y Digestiva,7438,5057,890,1491,90.6,291.6
+2024-09-30,Cirugía Oral y Maxilofacial,292,268,24,0,113.7,
+2024-09-30,Cirugía Pediátrica,413,377,36,0,70.8,
+2024-09-30,Cirugía Plástica y Reparadora,1121,955,100,66,121.8,152.1
+2024-09-30,Cirugía Torácica,130,118,12,0,50.1,
+2024-09-30,Dermatología,319,273,46,0,28.6,
+2024-09-30,Ginecología,1116,981,135,0,56.5,
+2024-09-30,Neurocirugía,866,755,111,0,138.4,
+2024-09-30,Oftalmología,5441,4250,422,769,49.9,53.1
+2024-09-30,Otorrinolaringología,3311,2988,294,29,108.9,250.3
+2024-09-30,Traumatología y Cirugía Ortopédica,14578,10697,1912,1969,144.8,287.0
+2024-09-30,Urología,3252,2828,396,28,113.3,168.5
+2024-12-31,Angiología y Cirugía Vascular,886,597,141,148,55.0,218.2
+2024-12-31,Cirugía Cardiaca,112,104,8,0,81.0,
+2024-12-31,Cirugía General y Digestiva,7209,4752,1066,1391,71.1,332.6
+2024-12-31,Cirugía Oral y Maxilofacial,307,292,15,0,110.4,
+2024-12-31,Cirugía Pediátrica,383,357,26,0,55.6,
+2024-12-31,Cirugía Plástica y Reparadora,1046,866,136,44,107.9,181.8
+2024-12-31,Cirugía Torácica,64,58,6,0,70.0,
+2024-12-31,Dermatología,205,181,24,0,24.3,
+2024-12-31,Ginecología,1113,955,158,0,48.0,
+2024-12-31,Neurocirugía,770,586,184,0,120.1,
+2024-12-31,Oftalmología,5158,4224,430,504,46.0,57.6
+2024-12-31,Otorrinolaringología,3176,2704,431,41,93.2,215.2
+2024-12-31,Traumatología y Cirugía Ortopédica,13497,9494,2151,1852,136.1,275.7
+2024-12-31,Urología,2798,2355,426,17,93.6,124.9
+2025-03-31,Angiología y Cirugía Vascular,844,571,136,137,60.1,213.5
+2025-03-31,Cirugía Cardiaca,119,108,11,0,73.8,
+2025-03-31,Cirugía General y Digestiva,7367,5187,948,1232,66.7,359.0
+2025-03-31,Cirugía Oral y Maxilofacial,289,273,16,0,105.6,
+2025-03-31,Cirugía Pediátrica,334,298,36,0,50.1,
+2025-03-31,Cirugía Plástica y Reparadora,1035,886,114,35,91.8,165.1
+2025-03-31,Cirugía Torácica,108,104,4,0,49.5,
+2025-03-31,Dermatología,194,184,10,0,20.6,
+2025-03-31,Ginecología,1162,1017,145,0,41.9,
+2025-03-31,Neurocirugía,749,576,173,0,94.6,
+2025-03-31,Oftalmología,6183,4880,375,928,38.2,46.3
+2025-03-31,Otorrinolaringología,3362,2924,413,25,82.3,259.6
+2025-03-31,Traumatología y Cirugía Ortopédica,13392,9414,2419,1559,113.9,287.6
+2025-03-31,Urología,2857,2513,329,15,84.8,146.7
+2025-06-30,Angiología y Cirugía Vascular,707,417,191,99,48.6,138.8
+2025-06-30,Cirugía Cardiaca,126,120,6,0,67.9,
+2025-06-30,Cirugía General y Digestiva,6715,4243,1185,1287,68.7,351.9
+2025-06-30,Cirugía Oral y Maxilofacial,241,227,14,0,78.2,
+2025-06-30,Cirugía Pediátrica,285,228,57,0,52.9,
+2025-06-30,Cirugía Plástica y Reparadora,1026,832,158,36,92.5,90.8
+2025-06-30,Cirugía Torácica,124,118,6,0,79.6,
+2025-06-30,Dermatología,141,125,16,0,25.5,
+2025-06-30,Ginecología,1000,822,178,0,44.3,
+2025-06-30,Neurocirugía,635,459,175,1,90.4,33.0
+2025-06-30,Oftalmología,5362,4044,503,815,45.6,51.9
+2025-06-30,Otorrinolaringología,3537,2822,691,24,77.9,190.2
+2025-06-30,Traumatología y Cirugía Ortopédica,13050,8319,2763,1968,109.1,241.1
+2025-06-30,Urología,2894,2331,519,44,81.7,128.3
+2025-09-30,Angiología y Cirugía Vascular,746,446,190,110,58.6,160.6
+2025-09-30,Cirugía Cardiaca,149,144,5,0,78.9,
+2025-09-30,Cirugía General y Digestiva,6878,4625,1255,998,74.8,263.9
+2025-09-30,Cirugía Oral y Maxilofacial,283,270,13,0,81.9,
+2025-09-30,Cirugía Pediátrica,384,280,104,0,50.3,
+2025-09-30,Cirugía Plástica y Reparadora,1079,831,231,17,122.9,181.8
+2025-09-30,Cirugía Torácica,139,133,6,0,84.6,
+2025-09-30,Dermatología,212,198,14,0,29.0,
+2025-09-30,Ginecología,1151,969,182,0,58.4,
+2025-09-30,Neurocirugía,701,513,172,16,84.4,225.2
+2025-09-30,Oftalmología,5943,4556,430,957,48.3,67.6
+2025-09-30,Otorrinolaringología,3790,2984,786,20,89.8,168.2
+2025-09-30,Traumatología y Cirugía Ortopédica,13479,8665,2609,2205,116.3,263.0
+2025-09-30,Urología,3233,2565,604,64,89.1,143.1
+2025-12-31,Angiología y Cirugía Vascular,632,476,58,98,64.4,166.8
+2025-12-31,Cirugía Cardiaca,122,114,8,0,79.9,
+2025-12-31,Cirugía General y Digestiva,6471,4304,1255,912,73.7,198.7
+2025-12-31,Cirugía Oral y Maxilofacial,253,225,28,0,81.5,
+2025-12-31,Cirugía Pediátrica,344,297,47,0,52.6,
+2025-12-31,Cirugía Plástica y Reparadora,1061,901,151,9,112.3,234.7
+2025-12-31,Cirugía Torácica,88,78,10,0,103.7,
+2025-12-31,Dermatología,161,144,17,0,32.5,
+2025-12-31,Ginecología,1104,961,143,0,57.3,
+2025-12-31,Neurocirugía,615,461,151,3,71.2,166.7
+2025-12-31,Oftalmología,5438,3759,500,1179,48.2,70.6
+2025-12-31,Otorrinolaringología,3896,3148,706,42,92.6,123.0
+2025-12-31,Traumatología y Cirugía Ortopédica,12693,7647,2565,2481,111.9,249.4
+2025-12-31,Urología,2953,2271,653,29,106.9,120.9
+2026-03-31,Angiología y Cirugía Vascular,741,558,89,94,67.9,133.0
+2026-03-31,Cirugía Cardiaca,110,100,10,0,72.3,
+2026-03-31,Cirugía General y Digestiva,7310,5646,1035,629,76.5,169.7
+2026-03-31,Cirugía Oral y Maxilofacial,312,303,9,0,83.0,
+2026-03-31,Cirugía Pediátrica,324,289,35,0,49.7,
+2026-03-31,Cirugía Plástica y Reparadora,1158,963,179,16,116.6,219.8
+2026-03-31,Cirugía Torácica,118,103,15,0,75.7,
+2026-03-31,Dermatología,242,233,9,0,27.1,
+2026-03-31,Ginecología,1073,962,111,0,52.1,
+2026-03-31,Neurocirugía,717,560,153,4,58.9,71.8
+2026-03-31,Oftalmología,6710,5373,402,935,46.9,78.9
+2026-03-31,Otorrinolaringología,4347,3687,527,133,98.1,173.1
+2026-03-31,Traumatología y Cirugía Ortopédica,13766,9366,2220,2180,112.3,284.9
+2026-03-31,Urología,3386,2841,523,22,108.4,123.2
+2026-06-30,Angiología y Cirugía Vascular,746,452,84,210,77.5,127.2
+2026-06-30,Cirugía Cardiaca,112,102,10,0,61.2,
+2026-06-30,Cirugía General y Digestiva,7749,5640,1297,812,90.8,145.2
+2026-06-30,Cirugía Oral y Maxilofacial,335,310,25,0,94.4,
+2026-06-30,Cirugía Pediátrica,460,416,43,1,61.4,84.0
+2026-06-30,Cirugía Plástica y Reparadora,1238,1040,178,20,126.0,168.0
+2026-06-30,Cirugía Torácica,93,79,14,0,52.0,
+2026-06-30,Dermatología,225,211,14,0,34.6,
+2026-06-30,Ginecología,1089,920,169,0,55.1,
+2026-06-30,Neurocirugía,767,607,144,16,79.3,106.6
+2026-06-30,Oftalmología,7410,6092,413,905,54.6,85.8
+2026-06-30,Otorrinolaringología,4680,3667,906,107,110.2,201.7
+2026-06-30,Traumatología y Cirugía Ortopédica,14609,10479,1839,2291,130.1,270.6
+2026-06-30,Urología,3562,3019,486,57,124.6,297.7
