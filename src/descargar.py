@@ -8,6 +8,8 @@ Fuentes:
      una hoja por especialidad y una columna por hospital.
   3. Población residente por provincia (INE, Estadística Continua de Población),
      a través de la API JSON del INE.
+  4. Mapa de zonas básicas de salud (Datos Abiertos JCyL, GeoJSON), para
+     dibujar el mapa por provincias del dashboard.
 
 Uso:
     python src/descargar.py            # descarga solo lo que falta
@@ -56,6 +58,10 @@ PRIMER_ANIO = 2019
 URL_INE = "https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/{tabla}"
 TABLAS_INE = [56945, 59589]
 FILTROS_INE = "?tv=356:15668&tv=18:451&date=20190101:20991231"
+
+# Datos Abiertos de la Junta de Castilla y León: mapa de zonas básicas de salud
+URL_MAPA_ZBS = ("https://analisis.datosabiertos.jcyl.es/api/explore/v2.1/catalog/datasets/"
+                "mapas-de-areas-de-salud-de-castilla-y-leon/exports/geojson")
 
 CABECERAS = {"User-Agent": "Mozilla/5.0 (observatorio-sanidad-cyl; proyecto educativo)"}
 
@@ -182,11 +188,23 @@ def descargar_ine(forzar: bool) -> int:
     return nuevos
 
 
+def descargar_mapa(forzar: bool) -> int:
+    """Descarga el GeoJSON de zonas básicas de salud de Datos Abiertos JCyL."""
+    print("\n== Datos Abiertos JCyL · mapa de zonas básicas de salud")
+    destino = DIR_RAW / "geo" / "zonas_basicas_salud.geojson"
+    if destino.exists() and not forzar:
+        return 0
+    guardar(destino, pedir(URL_MAPA_ZBS).content)
+    print(f"   descargado -> {destino.name}")
+    return 1
+
+
 def main(forzar: bool = False) -> None:
     """Descarga todas las fuentes y muestra un resumen."""
     total = descargar_sacyl("quirurgica", forzar)
     total += descargar_sacyl("consultas", forzar)
     total += descargar_ine(forzar)
+    total += descargar_mapa(forzar)
     print(f"\nDescarga terminada: {total} ficheros nuevos en {DIR_RAW.relative_to(RAIZ)}")
 
 

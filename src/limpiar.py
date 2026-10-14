@@ -7,6 +7,7 @@ Genera estos ficheros CSV, en formato "largo" (una fila por observación):
   - quirurgica_region.csv        Total de Castilla y León por trimestre
   - consultas_externas.csv       Primeras consultas externas por hospital × especialidad
   - poblacion.csv                Población residente por provincia y fecha (INE)
+  - provincias_cyl.geojson       Contorno de las 9 provincias (para el mapa)
   - hospitales.csv / especialidades.csv / provincias.csv  Tablas maestras
 
 Uso:
@@ -427,6 +428,40 @@ def limpiar_poblacion() -> pd.DataFrame:
 
 
 # ---------------------------------------------------------------------------
+# Mapa de provincias
+# ---------------------------------------------------------------------------
+
+def crear_mapa_provincias(tolerancia: float = 0.004) -> None:
+    """Une las 247 zonas básicas de salud en 9 provincias y guarda un GeoJSON ligero.
+
+    El mapa original pesa 5,7 MB porque tiene el contorno detallado de cada
+    zona. Para el dashboard basta el contorno de cada provincia: se unen las
+    zonas de cada provincia (unary_union) y se simplifica el contorno.
+    La tolerancia está en grados (0,004 ≈ 400 m), suficiente para un mapa
+    regional. Pasa de 5,7 MB a unos 140 KB.
+    """
+    from shapely.geometry import mapping, shape  # solo se necesita en este paso
+    from shapely.ops import unary_union
+
+    print("\n== Mapa de provincias")
+    zonas = json.loads((DIR_RAW / "geo" / "zonas_basicas_salud.geojson").read_text(encoding="utf-8"))
+    por_provincia: dict[str, list] = {}
+    for zona in zonas["features"]:
+        provincia = normalizar(zona["properties"]["provincia"], MAPA_PROVINCIAS, "Provincia")
+        por_provincia.setdefault(provincia, []).append(shape(zona["geometry"]))
+
+    features = []
+    for provincia, geometrias in sorted(por_provincia.items()):
+        contorno = unary_union(geometrias).simplify(tolerancia, preserve_topology=True)
+        features.append({"type": "Feature", "properties": {"provincia": provincia},
+                         "geometry": mapping(contorno)})
+    destino = DIR_PROCESADO / "provincias_cyl.geojson"
+    destino.write_text(json.dumps({"type": "FeatureCollection", "features": features}),
+                       encoding="utf-8")
+    print(f"   {len(features)} provincias -> {destino.name} ({destino.stat().st_size / 1024:.0f} KB)")
+
+
+# ---------------------------------------------------------------------------
 # Programa principal
 # ---------------------------------------------------------------------------
 
@@ -469,6 +504,8 @@ def main() -> None:
         # lineterminator="\n" para que el CSV sea idéntico en Windows y en Linux
         df.to_csv(DIR_PROCESADO / f"{nombre}.csv", index=False, encoding="utf-8", lineterminator="\n")
         print(f"   {nombre}.csv: {len(df)} filas")
+
+    crear_mapa_provincias()
 
 
 if __name__ == "__main__":
