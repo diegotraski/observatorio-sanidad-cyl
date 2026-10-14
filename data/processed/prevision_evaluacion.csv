@@ -1,0 +1,41 @@
+ambito,modelo,mae,mape,cobertura_intervalo_pct,elegido
+Castilla y León,ultimo_valor,4049.25,12.97,100.0,False
+Castilla y León,estacional_ingenuo,3962.75,13.3,100.0,False
+Castilla y León,media_movil_4,3013.25,10.2,100.0,True
+Castilla y León,ets_holt_winters,6264.07,20.59,50.0,False
+Burgos,ultimo_valor,422.75,6.93,100.0,False
+Burgos,estacional_ingenuo,474.25,7.78,100.0,False
+Burgos,media_movil_4,448.0,7.25,100.0,False
+Burgos,ets_holt_winters,279.54,4.71,100.0,True
+León,ultimo_valor,356.0,5.13,100.0,True
+León,estacional_ingenuo,1230.25,17.96,100.0,False
+León,media_movil_4,940.25,13.86,75.0,False
+León,ets_holt_winters,801.8,10.87,100.0,False
+Palencia,ultimo_valor,460.5,38.31,50.0,False
+Palencia,estacional_ingenuo,391.75,38.56,75.0,False
+Palencia,media_movil_4,357.38,34.38,100.0,True
+Palencia,ets_holt_winters,447.27,36.57,25.0,False
+Salamanca,ultimo_valor,789.0,16.91,100.0,False
+Salamanca,estacional_ingenuo,1038.0,23.8,100.0,False
+Salamanca,media_movil_4,537.0,12.61,100.0,True
+Salamanca,ets_holt_winters,609.14,12.44,75.0,False
+Segovia,ultimo_valor,224.75,14.27,100.0,False
+Segovia,estacional_ingenuo,175.25,11.07,100.0,True
+Segovia,media_movil_4,203.25,13.05,100.0,False
+Segovia,ets_holt_winters,241.97,15.45,100.0,False
+Soria,ultimo_valor,223.25,24.93,75.0,False
+Soria,estacional_ingenuo,185.75,20.87,75.0,False
+Soria,media_movil_4,160.5,18.3,100.0,True
+Soria,ets_holt_winters,292.64,34.22,25.0,False
+Valladolid,ultimo_valor,898.75,15.71,100.0,False
+Valladolid,estacional_ingenuo,468.5,8.15,100.0,True
+Valladolid,media_movil_4,571.38,10.3,100.0,False
+Valladolid,ets_holt_winters,835.91,14.73,100.0,False
+Zamora,ultimo_valor,438.0,22.89,50.0,False
+Zamora,estacional_ingenuo,413.5,22.0,50.0,True
+Zamora,media_movil_4,413.5,21.45,50.0,False
+Zamora,ets_holt_winters,481.82,25.87,25.0,False
+Ávila,ultimo_valor,669.75,39.99,25.0,False
+Ávila,estacional_ingenuo,575.0,33.33,50.0,True
+Ávila,media_movil_4,580.88,37.45,50.0,False
+Ávila,ets_holt_winters,624.65,37.96,25.0,False

@@ -1,0 +1,41 @@
+ambito,fecha,prevision,inferior,superior,modelo
+Castilla y León,2026-09-30,28996.0,24805.0,33187.0,media_movil_4
+Castilla y León,2026-12-31,28996.0,23069.0,34923.0,media_movil_4
+Castilla y León,2027-03-31,28996.0,21737.0,36255.0,media_movil_4
+Castilla y León,2027-06-30,28996.0,20614.0,37378.0,media_movil_4
+Burgos,2026-09-30,6500.0,5849.0,7151.0,ets_holt_winters
+Burgos,2026-12-31,6363.0,5351.0,7376.0,ets_holt_winters
+Burgos,2027-03-31,6906.0,5446.0,8366.0,ets_holt_winters
+Burgos,2027-06-30,7345.0,5408.0,9281.0,ets_holt_winters
+León,2026-09-30,7659.0,6639.0,8679.0,ultimo_valor
+León,2026-12-31,7659.0,6216.0,9102.0,ultimo_valor
+León,2027-03-31,7659.0,5892.0,9426.0,ultimo_valor
+León,2027-06-30,7659.0,5618.0,9700.0,ultimo_valor
+Palencia,2026-09-30,1049.0,650.0,1448.0,media_movil_4
+Palencia,2026-12-31,1049.0,485.0,1613.0,media_movil_4
+Palencia,2027-03-31,1049.0,358.0,1740.0,media_movil_4
+Palencia,2027-06-30,1049.0,251.0,1847.0,media_movil_4
+Salamanca,2026-09-30,4361.0,3382.0,5340.0,media_movil_4
+Salamanca,2026-12-31,4361.0,2976.0,5746.0,media_movil_4
+Salamanca,2027-03-31,4361.0,2665.0,6057.0,media_movil_4
+Salamanca,2027-06-30,4361.0,2402.0,6320.0,media_movil_4
+Segovia,2026-09-30,1399.0,725.0,2073.0,estacional_ingenuo
+Segovia,2026-12-31,1239.0,565.0,1913.0,estacional_ingenuo
+Segovia,2027-03-31,1607.0,933.0,2281.0,estacional_ingenuo
+Segovia,2027-06-30,1638.0,964.0,2312.0,estacional_ingenuo
+Soria,2026-09-30,799.0,590.0,1008.0,media_movil_4
+Soria,2026-12-31,799.0,503.0,1095.0,media_movil_4
+Soria,2027-03-31,799.0,437.0,1162.0,media_movil_4
+Soria,2027-06-30,799.0,381.0,1218.0,media_movil_4
+Valladolid,2026-09-30,5388.0,3226.0,7550.0,estacional_ingenuo
+Valladolid,2026-12-31,4666.0,2504.0,6828.0,estacional_ingenuo
+Valladolid,2027-03-31,5939.0,3777.0,8101.0,estacional_ingenuo
+Valladolid,2027-06-30,5834.0,3672.0,7996.0,estacional_ingenuo
+Zamora,2026-09-30,1488.0,1088.0,1888.0,estacional_ingenuo
+Zamora,2026-12-31,1423.0,1023.0,1823.0,estacional_ingenuo
+Zamora,2027-03-31,2072.0,1672.0,2472.0,estacional_ingenuo
+Zamora,2027-06-30,2005.0,1605.0,2405.0,estacional_ingenuo
+Ávila,2026-09-30,1072.0,540.0,1604.0,estacional_ingenuo
+Ávila,2026-12-31,693.0,161.0,1225.0,estacional_ingenuo
+Ávila,2027-03-31,1791.0,1259.0,2323.0,estacional_ingenuo
+Ávila,2027-06-30,1907.0,1375.0,2439.0,estacional_ingenuo
