@@ -4,7 +4,7 @@
 
 **Dashboard interactivo con datos oficiales de las listas de espera de los 14 hospitales públicos de Castilla y León (2018-2026): análisis, previsión a 12 meses y un asistente de IA que responde preguntas convirtiéndolas en SQL.**
 
-<!-- ENLACE_DEMO: sustituir por el botón de la demo cuando esté desplegada en Streamlit Cloud -->
+[![Demo](https://img.shields.io/badge/Probar_la_demo_en_vivo-Streamlit_Cloud-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://observatorio-sanidad-cyl-tmj3fejzr594gvoczadj5x.streamlit.app/)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)

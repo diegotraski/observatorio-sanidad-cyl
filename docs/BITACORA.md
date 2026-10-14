@@ -265,3 +265,9 @@ Diario de decisiones, fase a fase. Cada entrada resume qué se hizo y por qué.
   - León, de 139 a 134 días, con un mínimo de 100.
   - El top 5 de especialidades por demora.
   - 3.143 pacientes de Dermatología en Valladolid.
+
+### Despliegue en Streamlit Community Cloud
+
+- Demo pública: https://observatorio-sanidad-cyl-tmj3fejzr594gvoczadj5x.streamlit.app/
+- Desplegada desde `main` con `app/dashboard.py` y la clave `GEMINI_API_KEY` en los *Secrets*.
+- Comprobado desde un navegador sin sesión: la app carga y el asistente responde correctamente (top 5 de especialidades por demora).
